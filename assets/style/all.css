@@ -12450,11 +12450,11 @@ p {
 }
 
 .pt-80 {
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 .pb-80 {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 .link-hover:hover {
@@ -12486,6 +12486,17 @@ nav .link-hover:hover {
   .bg-secondary {
     padding-top: 60px !important;
     padding-bottom: 60px !important;
+  }
+}
+
+.index-banner {
+  background-image: url(.././images/index/banner-sm.jpg);
+  background-size: cover;
+}
+
+@media (min-width: 576px) {
+  .index-banner {
+    background-image: url(.././images/index/banner.png);
   }
 }
 
