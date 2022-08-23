@@ -1,0 +1,10 @@
+nav{
+  .navbar-collapse{
+    flex-grow: 0;
+  }
+  .link-hover:hover{
+    background: $secondary;
+    color: white;
+  }
+
+}
