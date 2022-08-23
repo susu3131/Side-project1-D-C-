@@ -1,0 +1,27 @@
+// jquery & bootstrap-
+@import url(https://code.jquery.com/jquery-3.6.0.min.js);
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/bs-variables"; // jquery 變數修改覆蓋
+@import "./helpers/bs-utillities";// jquery utill修改覆蓋
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+// base
+@import "./base/base.scss";
+
+// util
+@import "./helpers/util";
+@import "./helpers/mixins";
+
+// layout
+@import "./layout/layout";
+@import "./layout/header";
+@import "./layout/footer";
+
+// // components
+// @import "./components/..";
+
+// // pages
+// @import "./pages/..";

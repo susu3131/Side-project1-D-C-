@@ -1,0 +1,20 @@
+@mixin web {
+  @media(min-width: 992px){
+    @content;
+  }
+  
+}
+
+@mixin ipad {
+  @media(min-width: 768px){
+    @content;
+  }
+  
+}
+
+@mixin ipad-sm{
+  @media(min-width: 576px){
+    @content;
+  }
+  
+}
