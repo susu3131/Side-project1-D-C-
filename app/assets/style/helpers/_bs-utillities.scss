@@ -11,7 +11,9 @@ $utilities: map-merge(
       values: (
         0: 0,
         25: .25,
+        30: .30,
         50: .5,
+        60: .6,
         75: .75,
         100: 1,
       )
@@ -189,9 +191,17 @@ $utilities: map-merge(
       values: (100: 100%)
     ),
     "viewport-height": (
+      responsive: true,
       property: height,
       class: vh,
-      values: (100: 100vh)
+      values: (
+        50: 50vh,
+        60: 60vh,
+        70: 70vh,
+        80: 80vh,
+        90: 90vh,
+        100: 100vh,
+      )
     ),
     "min-viewport-height": (
       property: min-height,

@@ -2,16 +2,29 @@
   background-image: url(.././images/index/banner-sm.jpg)  ;  
   background-size: cover;
   background-position: center center;
+  .index-tittle {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
   
 }
 
-
-
-
-@include  web{
+@include  ipad-sm{
   .index-banner{
     background-image: url(.././images/index/banner.jpg) ;  
+    background-position: center center;
+    img{
+      width: 70px;
+    }
   }
   
 
 }
+
+@include  ipad{
+  .index-banner{
+    img{
+      width: 100px;
+    }
+  }
+}
+
