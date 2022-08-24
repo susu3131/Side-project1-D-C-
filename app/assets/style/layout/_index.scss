@@ -1,15 +1,16 @@
 .index-banner{
-  background-image: url(.././images/index/banner-sm.jpg);  
+  background-image: url(.././images/index/banner-sm.jpg)  ;  
   background-size: cover;
+  background-position: center center;
   
 }
 
 
 
 
-@include  ipad-sm{
+@include  web{
   .index-banner{
-    background-image: url(.././images/index/banner.png);  
+    background-image: url(.././images/index/banner.jpg) ;  
   }
   
 
