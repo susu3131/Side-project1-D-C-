@@ -6,7 +6,18 @@ $utilities: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $utilities: map-merge(
   (
-    // scss-docs-start utils-vertical-align
+    "opacity": (
+      property: opacity,
+      values: (
+        0: 0,
+        25: .25,
+        50: .5,
+        75: .75,
+        100: 1,
+      )
+    ),
+  
+  // scss-docs-start utils-vertical-align
     "align": (
       property: vertical-align,
       class: align,
@@ -432,6 +443,7 @@ $utilities: map-merge(
       values: (monospace: var(--#{$variable-prefix}font-monospace))
     ),
     "font-size": (
+      responsive: true,
       rfs: true,
       property: font-size,
       class: fs,

@@ -5,8 +5,27 @@
   padding-bottom: 80px;
 }
 
+.pt-60{
+  padding-top: 60px;
+}
+.pb-60{
+  padding-bottom: 60px;
+}
 
+.op-8{
+  opacity: 0.8;
+}
+
+.radius-40{
+  border-radius: 40px;
+}
+
+//hover
 .link-hover:hover{
   background: $secondary;
   color: white;
+}
+
+.img-hover:hover{
+  opacity:1 !important;
 }
