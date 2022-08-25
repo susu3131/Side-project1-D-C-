@@ -1,7 +1,10 @@
 .index-banner{
-  background-image: url(.././images/index/banner-sm.jpg)  ;  
-  background-size: cover;
-  background-position: center center;
+  .index-banner-bg{
+    background-image: url(.././images/index/banner-sm.jpg)  ;  
+    background-size: cover;
+    background-position: center center;
+    animation: zoom 10s 
+    }
   .index-tittle {
     background-color: rgba(0, 0, 0, 0.3);
   }
@@ -12,28 +15,88 @@
   }
 }
 
+@keyframes zoom{
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1,1.11);
+    }
+}
+
 .index-introduce{
   background-image: url(.././images/index/bg-sm-2.jpg)  ;  
   background-size: cover;
   background-position: center center;
 }
 
+.index-about{
+  .index-about-img{
+    background-image: url(.././images/index/bg-cat-sm.jpg)  ;  
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
 .index-photo{
   background-image: url(.././images/index/bg-sm-3.jpg)  ;  
   background-size: cover;
   background-position: center center;
+  .index-photo-bg{
+    background: rgba(0, 0, 0, 0.7)
+  }
 }
 
 .index-go{
   background-image: url(.././images/index/bg-sm-4.jpg)  ;  
   background-size: cover;
   background-position: center center;
+  .index-go-button{
+    border: 10px solid;
+    border-radius: 115px;
+    padding: 14px 32px;
+  }
+  .index-go-button:hover{
+    border-color: $black;
+    opacity: 1;
+    -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
 }
+
+
+@-webkit-keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+
+
 
 @include  ipad-sm{
   .index-banner{
-    background-image: url(.././images/index/banner.jpg) ;  
-    background-position: center center;
+    .index-banner-bg{
+      background-image: url(.././images/index/banner.jpg) ;  
+      background-position: center center;
+    }
+    
     img{
       width: 70px;
     }
