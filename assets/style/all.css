@@ -82,12 +82,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h1, .h1 {
-  font-size: calc(1.525rem + 3.3vw);
+  font-size: calc(1.425rem + 2.1vw);
 }
 
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -8813,7 +8813,7 @@ fieldset:disabled .btn {
 }
 
 .fs-1 {
-  font-size: calc(1.525rem + 3.3vw) !important;
+  font-size: calc(1.425rem + 2.1vw) !important;
 }
 
 .fs-2 {
@@ -8841,10 +8841,6 @@ fieldset:disabled .btn {
 }
 
 .fs-8 {
-  font-size: calc(1.425rem + 2.1vw) !important;
-}
-
-.fs-9 {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
 
@@ -9855,7 +9851,7 @@ fieldset:disabled .btn {
     padding-left: 5rem !important;
   }
   .fs-sm-1 {
-    font-size: calc(1.525rem + 3.3vw) !important;
+    font-size: calc(1.425rem + 2.1vw) !important;
   }
   .fs-sm-2 {
     font-size: calc(1.325rem + 0.9vw) !important;
@@ -9876,9 +9872,6 @@ fieldset:disabled .btn {
     font-size: calc(1.575rem + 3.9vw) !important;
   }
   .fs-sm-8 {
-    font-size: calc(1.425rem + 2.1vw) !important;
-  }
-  .fs-sm-9 {
     font-size: calc(1.375rem + 1.5vw) !important;
   }
   .text-sm-start {
@@ -10571,7 +10564,7 @@ fieldset:disabled .btn {
     padding-left: 5rem !important;
   }
   .fs-md-1 {
-    font-size: calc(1.525rem + 3.3vw) !important;
+    font-size: calc(1.425rem + 2.1vw) !important;
   }
   .fs-md-2 {
     font-size: calc(1.325rem + 0.9vw) !important;
@@ -10592,9 +10585,6 @@ fieldset:disabled .btn {
     font-size: calc(1.575rem + 3.9vw) !important;
   }
   .fs-md-8 {
-    font-size: calc(1.425rem + 2.1vw) !important;
-  }
-  .fs-md-9 {
     font-size: calc(1.375rem + 1.5vw) !important;
   }
   .text-md-start {
@@ -11287,7 +11277,7 @@ fieldset:disabled .btn {
     padding-left: 5rem !important;
   }
   .fs-lg-1 {
-    font-size: calc(1.525rem + 3.3vw) !important;
+    font-size: calc(1.425rem + 2.1vw) !important;
   }
   .fs-lg-2 {
     font-size: calc(1.325rem + 0.9vw) !important;
@@ -11308,9 +11298,6 @@ fieldset:disabled .btn {
     font-size: calc(1.575rem + 3.9vw) !important;
   }
   .fs-lg-8 {
-    font-size: calc(1.425rem + 2.1vw) !important;
-  }
-  .fs-lg-9 {
     font-size: calc(1.375rem + 1.5vw) !important;
   }
   .text-lg-start {
@@ -12003,7 +11990,7 @@ fieldset:disabled .btn {
     padding-left: 5rem !important;
   }
   .fs-xl-1 {
-    font-size: calc(1.525rem + 3.3vw) !important;
+    font-size: calc(1.425rem + 2.1vw) !important;
   }
   .fs-xl-2 {
     font-size: calc(1.325rem + 0.9vw) !important;
@@ -12024,9 +12011,6 @@ fieldset:disabled .btn {
     font-size: calc(1.575rem + 3.9vw) !important;
   }
   .fs-xl-8 {
-    font-size: calc(1.425rem + 2.1vw) !important;
-  }
-  .fs-xl-9 {
     font-size: calc(1.375rem + 1.5vw) !important;
   }
   .text-xl-start {
@@ -12719,7 +12703,7 @@ fieldset:disabled .btn {
     padding-left: 5rem !important;
   }
   .fs-xxl-1 {
-    font-size: calc(1.525rem + 3.3vw) !important;
+    font-size: calc(1.425rem + 2.1vw) !important;
   }
   .fs-xxl-2 {
     font-size: calc(1.325rem + 0.9vw) !important;
@@ -12740,9 +12724,6 @@ fieldset:disabled .btn {
     font-size: calc(1.575rem + 3.9vw) !important;
   }
   .fs-xxl-8 {
-    font-size: calc(1.425rem + 2.1vw) !important;
-  }
-  .fs-xxl-9 {
     font-size: calc(1.375rem + 1.5vw) !important;
   }
   .text-xxl-start {
@@ -12758,7 +12739,7 @@ fieldset:disabled .btn {
 
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
   .fs-2 {
     font-size: 2rem !important;
@@ -12773,13 +12754,10 @@ fieldset:disabled .btn {
     font-size: 4.5rem !important;
   }
   .fs-8 {
-    font-size: 3rem !important;
-  }
-  .fs-9 {
     font-size: 2.5rem !important;
   }
   .fs-sm-1 {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
   .fs-sm-2 {
     font-size: 2rem !important;
@@ -12794,13 +12772,10 @@ fieldset:disabled .btn {
     font-size: 4.5rem !important;
   }
   .fs-sm-8 {
-    font-size: 3rem !important;
-  }
-  .fs-sm-9 {
     font-size: 2.5rem !important;
   }
   .fs-md-1 {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
   .fs-md-2 {
     font-size: 2rem !important;
@@ -12815,13 +12790,10 @@ fieldset:disabled .btn {
     font-size: 4.5rem !important;
   }
   .fs-md-8 {
-    font-size: 3rem !important;
-  }
-  .fs-md-9 {
     font-size: 2.5rem !important;
   }
   .fs-lg-1 {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
   .fs-lg-2 {
     font-size: 2rem !important;
@@ -12836,9 +12808,6 @@ fieldset:disabled .btn {
     font-size: 4.5rem !important;
   }
   .fs-lg-8 {
-    font-size: 3rem !important;
-  }
-  .fs-lg-9 {
     font-size: 2.5rem !important;
   }
 }
@@ -12996,6 +12965,10 @@ nav .navbar-toggler:focus, nav .navbar-toggler:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.index-banner .index-bannertext p {
+  padding: 40px;
+}
+
 @media (min-width: 576px) {
   .index-banner {
     background-image: url(.././images/index/banner.jpg);
@@ -13008,7 +12981,16 @@ nav .navbar-toggler:focus, nav .navbar-toggler:hover {
 
 @media (min-width: 768px) {
   .index-banner img {
-    width: 100px;
+    width: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .index-banner img {
+    width: 80px;
+  }
+  .index-banner .index-bannertext p {
+    padding: 50px 100px;
   }
 }
 
