@@ -31,6 +31,7 @@
 }
 
 .index-about{
+  background: #2C2C2C;
   .index-about-img{
     background-image: url(.././images/index/bg-cat-sm.jpg)  ;  
     background-size: cover;
@@ -96,12 +97,40 @@
       background-image: url(.././images/index/banner.jpg) ;  
       background-position: center center;
     }
-    
-    img{
+      img{
       width: 70px;
     }
   }
-  
+
+  .index-introduce{
+    .index-introduce-box{
+      img{
+        width: 70px ;
+      }
+      .introduce-img{
+        width: 80px;
+      }
+    }
+  }
+
+  .index-about{
+    .index-about-img{
+      background-image: url(.././images/index/bg-cat.png) ;
+      background-position: 55%  
+    }
+  }
+
+  .index-photo{
+    background-image: url(.././images/index/bg-3.jpg)  ;  
+    background-size: cover;
+    background-position: center center;
+    .index-photo-bg{
+      background: rgba(0, 0, 0, 0.7)
+    }
+  }
+
+
+
 
 }
 
@@ -111,6 +140,33 @@
       width: 80px;
     }
   }
+  .index-introduce{
+    background-image: url(.././images/index/bg-2.jpg)  ;  
+    background-size: cover;
+    background-position: left center;
+    .index-introduce-box{
+      img{
+        width: 80px ;
+      }
+      .introduce-img{
+        width: 90px;
+      }
+    }
+  }
+
+  .index-about{
+    .index-about-img{
+      margin-right: 64px;  
+    }
+    .index-about-text{
+      padding: 60px 0;
+      
+    }
+  }
+
+
+
+
 }
 
 
@@ -123,6 +179,23 @@
       p{
         padding:50px 100px;
       }
+    }
+  }
+  .index-introduce{
+    .index-introduce-box{
+      img{
+        width: 90px ;
+      }
+      .introduce-img{
+        width: 108px;
+      }
+    }
+  }
+
+  .index-about{
+    .index-about-text{
+      padding: 150px 0;
+      
     }
   }
 
