@@ -9168,6 +9168,10 @@ fieldset:disabled .btn {
   opacity: 0.75 !important;
 }
 
+.opacity-90 {
+  opacity: 0.9 !important;
+}
+
 .opacity-100 {
   opacity: 1 !important;
 }
@@ -12865,7 +12869,8 @@ a {
 
 ul {
   list-style: none;
-  margin: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 li {
@@ -12882,6 +12887,14 @@ p {
 
 .mb-100 {
   margin-bottom: 100px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
 }
 
 .mt-80 {
@@ -12955,10 +12968,12 @@ nav .navbar-toggler:focus, nav .navbar-toggler:hover {
   }
 }
 
-.index-banner {
+.index-banner .index-banner-bg {
   background-image: url(.././images/index/banner-sm.jpg);
   background-size: cover;
   background-position: center center;
+  -webkit-animation: zoom 10s;
+          animation: zoom 10s;
 }
 
 .index-banner .index-tittle {
@@ -12969,8 +12984,36 @@ nav .navbar-toggler:focus, nav .navbar-toggler:hover {
   padding: 40px;
 }
 
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.1, 1.11);
+            transform: scale(1.1, 1.11);
+  }
+}
+
+@keyframes zoom {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.1, 1.11);
+            transform: scale(1.1, 1.11);
+  }
+}
+
 .index-introduce {
   background-image: url(.././images/index/bg-sm-2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.index-about .index-about-img {
+  background-image: url(.././images/index/bg-cat-sm.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -12981,14 +13024,53 @@ nav .navbar-toggler:focus, nav .navbar-toggler:hover {
   background-position: center center;
 }
 
+.index-photo .index-photo-bg {
+  background: rgba(0, 0, 0, 0.7);
+}
+
 .index-go {
   background-image: url(.././images/index/bg-sm-4.jpg);
   background-size: cover;
   background-position: center center;
 }
 
+.index-go .index-go-button {
+  border: 10px solid;
+  border-radius: 115px;
+  padding: 14px 32px;
+}
+
+.index-go .index-go-button:hover {
+  border-color: #000;
+  opacity: 1;
+  -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
 @media (min-width: 576px) {
-  .index-banner {
+  .index-banner .index-banner-bg {
     background-image: url(.././images/index/banner.jpg);
     background-position: center center;
   }
