@@ -12969,6 +12969,24 @@ nav .navbar-toggler:focus, nav .navbar-toggler:hover {
   padding: 40px;
 }
 
+.index-introduce {
+  background-image: url(.././images/index/bg-sm-2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.index-photo {
+  background-image: url(.././images/index/bg-sm-3.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.index-go {
+  background-image: url(.././images/index/bg-sm-4.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
 @media (min-width: 576px) {
   .index-banner {
     background-image: url(.././images/index/banner.jpg);
