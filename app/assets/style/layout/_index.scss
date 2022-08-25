@@ -5,7 +5,11 @@
   .index-tittle {
     background-color: rgba(0, 0, 0, 0.3);
   }
-  
+  .index-bannertext{
+    p{
+      padding:40px;
+    }
+  }
 }
 
 @include  ipad-sm{
@@ -23,8 +27,22 @@
 @include  ipad{
   .index-banner{
     img{
-      width: 100px;
+      width: 80px;
     }
   }
 }
 
+
+@include  web{
+  .index-banner{
+    img{
+      width: 80px;
+    }
+    .index-bannertext{
+      p{
+        padding:50px 100px;
+      }
+    }
+  }
+
+}

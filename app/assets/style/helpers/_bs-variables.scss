@@ -448,10 +448,9 @@ $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
 $font-size-72:                $font-size-base * 4.5 !default;
-$font-size-48:                $font-size-base * 3 !default;
 $font-size-40:                $font-size-base * 2.5 !default;
 
-$h1-font-size:                $font-size-base * 4 !default;
+$h1-font-size:                $font-size-base * 3 !default;
 $h2-font-size:                $font-size-base * 2 !default;
 $h3-font-size:                $font-size-base * 1.75 !default;
 $h4-font-size:                $font-size-base * 1.5!default;
@@ -461,15 +460,14 @@ $h6-font-size:                $font-size-base !default;
 
 // scss-docs-start font-sizes
 $font-sizes: (
-  1: $h1-font-size,//64px
+  1: $h1-font-size,//48px
   2: $h2-font-size,//32px
   3: $h3-font-size,//28px
   4: $h4-font-size,//24px
   5: $h5-font-size,//20px
   6: $h6-font-size,//16px
   7: $font-size-72,//72px
-  8: $font-size-48,//48px
-  9: $font-size-40,//40px
+  8: $font-size-40,//40px
 ) !default;
 // scss-docs-end font-sizes
 
