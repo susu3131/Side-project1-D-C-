@@ -5,7 +5,7 @@ $(document).ready(function () {
     event.preventDefault();
     $(".index-choose").toggle();
   });
-}); //輪播
+}); //首頁輪播
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 2,
@@ -37,6 +37,22 @@ var swiper = new Swiper(".mySwiper", {
       slidesPerView: 6,
       spaceBetween: 30
     }
+  }
+}); //pet 輪播
+
+var swiper = new Swiper(".Swiper-pet", {
+  centeredSlides: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
   }
 });
 //# sourceMappingURL=all.js.map
