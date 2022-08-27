@@ -16,7 +16,7 @@
 
 <body>
   <nav class="navbar navbar-expand-md pt-3 pb-3 border-bottom">
-    <div class="container-fluid container-lg ">
+    <div class="container container-lg ">
       <a class="navbar-brand d-flex align-items-center nav-hover" href="index.html">
         <img class="me-3" src="./assets/images/layout/home-icon 1.png" alt="home-icon 1.png " width="40">
         <p>HOME</p>
@@ -68,8 +68,14 @@
 
   
 <div class="dog">
-  <div class="dog-bg bg-img vh-75 d-flex flex-column justify-content-center align-items-center">
-    <div class="dog-button-list">
+  <div class="dog-bg bg-img  animation vh-75 h-lg-100 d-flex flex-column justify-content-center align-items-center flex-lg-row justify-content-lg-between">
+    <ul class=" bg-primary pe-1 d-none d-lg-block">
+      <li class="pb-1"><img src="./assets/images/dog/dog-index-5 .jpg" alt="" width="297"></li>
+      <li class="pb-1"><img src="./assets/images/dog/dog-index-3.jpg" alt="" width="297"></li>
+      <li class="pb-1"><img src="./assets/images/dog/dog-index-2.jpg" alt="" width="297"></li>
+      <li><img src="./assets/images/dog/dog-index-4 .jpg" alt="" width="297"></li>
+    </ul>
+    <div class="dog-button-list me-6 " data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-delay="1300" data-aos-offset="0" data-aos-duration="1000">
       <h1 class="fw-bold text-center mb-5 fs-7 text-primary">GO</h1>
       <ul >
         <li class="mb-5">
@@ -108,9 +114,10 @@
       </ul>
     </div>
   </div>
+
 </div>
 
-  <footer class="bg-secondary pt-4 pb-4 ">
+  <footer class="bg-secondary  bg-footer pt-4 pb-4 ">
     <div class="container">
       <div class=" justify-content-md-between align-items-center row justify-content-center ">
 
@@ -140,6 +147,13 @@
   </footer>
 
 
+  <!-- //swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- //aos視差滾動 -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>
