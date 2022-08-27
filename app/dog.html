@@ -4,43 +4,46 @@ layout: ./app/dog.ejs
 engine: ejs
 current: index
 ---
-<!-- //swiper -->
-<div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper container">
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  <div class="swiper-wrapper ">
-    <div class="swiper-slide">
-        <img class="radius-15"src="./assets/images/index/photo1.png" />
-    </div>
-    <div class="swiper-slide">
-      <img class="radius-15" src="./assets/images/index/photo4.png" width="264"/>
-    </div>
-    <div class="swiper-slide">
-      <div class="swiper-zoom-container">
-        <img  class="radius-15" src="./assets/images/index/photo3.png" width="264"/>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div class="swiper-zoom-container">
-        <img  class="radius-15" src="./assets/images/index/photo4.png" />
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div class="swiper-zoom-container">
-        <img  class="radius-15" src="./assets/images/index/photo5.png" />
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div class="swiper-zoom-container">
-        <img  class="radius-15" src="./assets/images/index/photo1.png" />
-      </div>
-    </div>
 
+<div class="dog">
+  <div class="dog-bg bg-img vh-75 d-flex flex-column justify-content-center align-items-center">
+    <div class="dog-button-list">
+      <h1 class="fw-bold text-center mb-5 fs-7 text-primary">GO</h1>
+      <ul >
+        <li class="mb-5">
+          <a href="dog-assess.html">
+            <button class="dc-button btn  d-flex align-items-center pt-2 pb-2 p-5 radius-40 mx-auto" >
+              <img src="./assets/images/dog/dog-icon4.png" alt="dog-icon4.png" width="50">
+              <p class="ms-3 fs-5">初步評估</p>
+            </button>
+          </a>
+        </li>
+        <li class="mb-5"> 
+          <a href="dog-ready.html">
+            <button class=" dc-button btn  d-flex align-items-center pt-2 pb-2 p-5 radius-40 mx-auto" >
+              <img src="./assets/images/dog/dog-icon3.png" alt="dog-icon4.png" width="50">
+              <p class="ms-3 fs-5">飼養前準備</p>
+            </button>
+          </a>
+        </li>
+        <li class="mb-5">
+          <a href="dog-love.html">
+            <button class=" dc-button btn  d-flex align-items-center pt-2 pb-2 p-5 radius-40 mx-auto" >
+              <img src="./assets/images/dog/dog-icon2.png" alt="dog-icon4.png" width="50">
+              <p class="ms-3 fs-5">愛與責任</p>
+            </button>
+          </a>
+        </li>
+        <li class="mb-5">
+          <a href="dog-adopt.html">
+            <button class=" dc-button btn  d-flex align-items-center pt-2 pb-2 p-5 radius-40 mx-auto" >
+              <img src="./assets/images/dog/dog-icon1.png" alt="dog-icon4.png" width="50">
+              <p class="ms-3 fs-5">認養管道</p>
+            </button>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
   </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-
 </div>
-
-
-
-<!-- Swiper JS -->

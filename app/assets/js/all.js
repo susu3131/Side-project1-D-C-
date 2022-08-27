@@ -8,7 +8,7 @@ $(document).ready(function () {
 })
 
 
-//輪播
+//首頁輪播
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 2,
   spaceBetween: 10,
@@ -36,4 +36,24 @@ var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
     },
   }
+});
+
+
+//pet 輪播
+
+var swiper = new Swiper(".Swiper-pet", {
+  
+  centeredSlides: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });

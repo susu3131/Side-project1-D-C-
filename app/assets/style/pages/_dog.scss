@@ -1,0 +1,11 @@
+.dog-bg{
+  background-image: url(.././images/dog/dog-index-sm-1.jpg);
+}
+
+
+
+@include ipad-sm{
+  .dog-bg{
+    background-image: url(.././images/dog/dog-index-1.jpg);
+  }
+}

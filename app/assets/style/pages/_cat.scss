@@ -1,0 +1,11 @@
+.cat-bg{
+  background-image: url(.././images/cat/cat-index-sm-1.jpg);
+}
+
+
+
+@include ipad-sm{
+  .cat-bg{
+    background-image: url(.././images/cat/cat-index-1.jpg);
+  }
+}
