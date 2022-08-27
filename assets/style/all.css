@@ -13112,6 +13112,11 @@ p {
   margin-bottom: 0;
 }
 
+iframe {
+  width: 100%;
+  height: 180px;
+}
+
 .mt-100 {
   margin-top: 100px;
 }
@@ -13176,6 +13181,10 @@ p {
 .bg-img {
   background-size: cover;
   background-position: center center;
+}
+
+.bg-black-op {
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .index-choose {
