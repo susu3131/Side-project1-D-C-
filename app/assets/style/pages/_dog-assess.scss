@@ -1,0 +1,22 @@
+
+
+
+
+
+
+@include ipad{
+  .banner-tittle-assest{
+    background-image: url(.././images/dog/dog-b5.jpg) !important;
+    height: 350px !important;
+
+  }
+}
+
+
+@include web{
+  .ms-150{
+    margin-left: 250px;
+  }
+  
+
+}

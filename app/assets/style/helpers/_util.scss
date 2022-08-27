@@ -20,6 +20,9 @@
   margin-bottom: 80px;
 }
 
+.ms-150{
+  margin-left: 150px;
+}
 
 
 //padding
@@ -58,6 +61,11 @@
   color: white;
 }
 
+.nav-hover:hover{
+  color: white;
+  
+}
+
 .img-hover:hover{
   opacity:1 !important;
 }
@@ -73,3 +81,13 @@
 .bg-black-op{
   background: rgba(0, 0, 0, 0.7)
 }
+
+
+//bg-css
+
+.animation{
+  animation: DC 3s; 
+}
+  
+  
+  

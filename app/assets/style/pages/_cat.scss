@@ -6,6 +6,12 @@
 
 @include ipad-sm{
   .cat-bg{
-    background-image: url(.././images/cat/cat-index-1.jpg);
+    background-image: url(.././images/cat/cat-banner.png);
+  }
+}
+
+@include web{
+  .cat-button-list{
+    margin-right: 200px !important;
   }
 }

@@ -1,23 +1,52 @@
 //貓狗首頁按鈕
 
-.dc-button{
+.dc-button {
   background: rgba(255, 255, 255, 0.6);
   width: 240px;
 }
 
-.dc-button:hover{
+.dc-button:hover {
   background: rgba(255, 255, 255, 0.9);
   outline: 5px solid;
+
+}
+
+//貓狗標題偽元素
+.tittle-border:before {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  right: 0%;
+  height: 1px;
+  width: 65%;
+  background-color: $secondary;
+}
+
+.tittle-border-dc:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  height: 1px;
+  width: 65%;
+  background-color: $secondary;
+}
+
+//貓狗banner
+.banner-tittle {
+  height: 25vh;
+}
+
+.fs-100 {
+  font-size: 100px;
+}
+
+
+.nav-button:hover,.nav-button:focus{
+  color: white !important;
+  border-bottom: 5px solid ;
   
 }
 
 
-.tittle-border:before{
-  content: '';
-  position: absolute;
-  bottom:-30px;
-  right:0%;
-  height: 1px;
-  width:65%;
-  background-color:$secondary;
-}
+
