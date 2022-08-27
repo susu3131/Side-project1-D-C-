@@ -8029,6 +8029,10 @@ fieldset:disabled .btn {
   height: 70vh !important;
 }
 
+.vh-75 {
+  height: 75vh !important;
+}
+
 .vh-80 {
   height: 80vh !important;
 }
@@ -9293,6 +9297,9 @@ fieldset:disabled .btn {
   .vh-sm-70 {
     height: 70vh !important;
   }
+  .vh-sm-75 {
+    height: 75vh !important;
+  }
   .vh-sm-80 {
     height: 80vh !important;
   }
@@ -10041,6 +10048,9 @@ fieldset:disabled .btn {
   }
   .vh-md-70 {
     height: 70vh !important;
+  }
+  .vh-md-75 {
+    height: 75vh !important;
   }
   .vh-md-80 {
     height: 80vh !important;
@@ -10791,6 +10801,9 @@ fieldset:disabled .btn {
   .vh-lg-70 {
     height: 70vh !important;
   }
+  .vh-lg-75 {
+    height: 75vh !important;
+  }
   .vh-lg-80 {
     height: 80vh !important;
   }
@@ -11540,6 +11553,9 @@ fieldset:disabled .btn {
   .vh-xl-70 {
     height: 70vh !important;
   }
+  .vh-xl-75 {
+    height: 75vh !important;
+  }
   .vh-xl-80 {
     height: 80vh !important;
   }
@@ -12288,6 +12304,9 @@ fieldset:disabled .btn {
   }
   .vh-xxl-70 {
     height: 70vh !important;
+  }
+  .vh-xxl-75 {
+    height: 75vh !important;
   }
   .vh-xxl-80 {
     height: 80vh !important;
@@ -13154,6 +13173,11 @@ p {
   opacity: 1 !important;
 }
 
+.bg-img {
+  background-size: cover;
+  background-position: center center;
+}
+
 .index-choose {
   width: 100%;
   background: rgba(0, 0, 0, 0.9);
@@ -13189,6 +13213,16 @@ p {
 
 .swiper-slide-next {
   margin-left: 24px;
+}
+
+.dc-button {
+  background: rgba(255, 255, 255, 0.6);
+  width: 240px;
+}
+
+.dc-button:hover {
+  background: rgba(255, 255, 255, 0.9);
+  outline: 5px solid;
 }
 
 nav .navbar-collapse {
@@ -13405,6 +13439,26 @@ nav .navbar-toggler:focus, nav .navbar-toggler:hover {
   }
   .index-go .mr {
     margin-right: 250px;
+  }
+}
+
+.dog-bg {
+  background-image: url(.././images/dog/dog-index-sm-1.jpg);
+}
+
+@media (min-width: 576px) {
+  .dog-bg {
+    background-image: url(.././images/dog/dog-index-1.jpg);
+  }
+}
+
+.cat-bg {
+  background-image: url(.././images/cat/cat-index-sm-1.jpg);
+}
+
+@media (min-width: 576px) {
+  .cat-bg {
+    background-image: url(.././images/cat/cat-index-1.jpg);
   }
 }
 
