@@ -6,4 +6,11 @@ nav{
     border-color:$secondary !important;
     
   }
+
+  .nav-hover:hover{
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    
+  }
+  
 }
