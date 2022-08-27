@@ -1,70 +1,81 @@
-.index-banner{
-  .index-banner-bg{
-    background-image: url(.././images/index/banner-sm.jpg)  ;  
+.index-banner {
+  .index-banner-bg {
+    background-image: url(.././images/index/banner-sm.jpg);
     background-size: cover;
     background-position: center center;
-    animation:DC 3s ;
-    }
+    animation: DC 3s;
+  }
+
   .index-tittle {
     background-color: rgba(0, 0, 0, 0.3);
   }
-  .index-bannertext{
-    p{
-      padding:40px;
+
+  .index-bannertext {
+    p {
+      padding: 40px;
     }
   }
 }
 
-@keyframes DC{
-  0%{
+@keyframes DC {
+  0% {
     opacity: 0;
   }
-  100%{
+
+  100% {
     opacity: 1;
   }
 }
 
-.index-introduce{
-  background-image: url(.././images/index/bg-sm-2.jpg)  ;  
+.index-introduce {
+  background-image: url(.././images/index/bg-sm-2.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-.index-about{
+.index-about {
   background: #2C2C2C;
-  .index-about-img{
-    background-image: url(.././images/index/bg-cat-sm.jpg)  ;  
+
+  .index-about-img {
+    background-image: url(.././images/index/bg-cat-sm.jpg);
     background-size: cover;
     background-position: center center;
-    
+
   }
 }
 
-.index-photo{
-  background-image: url(.././images/index/bg-sm-3.jpg)  ;  
+.index-photo {
+  background-image: url(.././images/index/bg-sm-3.jpg);
   background-size: cover;
   background-position: center center;
-  .index-photo-bg{
+
+  .index-photo-bg {
     background: rgba(0, 0, 0, 0.7)
   }
 }
 
-.index-go{
-  background-image: url(.././images/index/bg-sm-4.jpg)  ;  
+.index-go {
+  background-image: url(.././images/index/bg-sm-4.jpg);
   background-size: cover;
   background-position: center center;
-  .index-go-button{
+
+  .index-go-button {
     border: 10px solid;
     border-radius: 115px;
     padding: 14px 32px;
   }
-  .index-go-button:hover{
+
+  .index-go-button:hover {
     border-color: $black;
     opacity: 1;
     -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
-  
+
+  .index-go-button{
+    z-index: 500;
+  }
+
 }
 
 
@@ -72,133 +83,167 @@
 @-webkit-keyframes shadow-drop-center {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
+
   100% {
     -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
   }
 }
+
 @keyframes shadow-drop-center {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
+
   100% {
     -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
   }
 }
 
 
 
 
-@include  ipad-sm{
-  .index-banner{
-    .index-banner-bg{
-      background-image: url(.././images/index/banner.jpg) ;  
+@include ipad-sm {
+  .index-banner {
+    .index-banner-bg {
+      background-image: url(.././images/index/banner.jpg);
       background-position: center center;
     }
-      img{
+
+    img {
       width: 70px;
     }
   }
 
-  .index-introduce{
-    .index-introduce-box{
-      img{
-        width: 70px ;
+  .index-introduce {
+    .index-introduce-box {
+      img {
+        width: 70px;
       }
-      .introduce-img{
+
+      .introduce-img {
         width: 80px;
       }
     }
   }
 
-  .index-about{
-    .index-about-img{
-      background-image: url(.././images/index/bg-cat.png) ;
-      background-position: 55%  
+  .index-about {
+    .index-about-img {
+      background-image: url(.././images/index/bg-cat.png);
+      background-position: 55%
     }
   }
 
-  .index-photo{
-    background-image: url(.././images/index/bg-3.jpg)  ;  
+  .index-photo {
+    background-image: url(.././images/index/bg-3.jpg);
     background-size: cover;
     background-position: center center;
-    .index-photo-bg{
+
+    .index-photo-bg {
       background: rgba(0, 0, 0, 0.7)
     }
   }
 
 
-
-
 }
 
-@include  ipad{
-  .index-banner{
-    img{
+
+
+@include ipad {
+  .index-banner {
+    img {
       width: 80px;
     }
   }
-  .index-introduce{
-    background-image: url(.././images/index/bg-2.jpg)  ;  
+
+  .index-introduce {
+    background-image: url(.././images/index/bg-2.jpg);
     background-size: cover;
     background-position: left center;
-    .index-introduce-box{
-      img{
-        width: 80px ;
+
+    .index-introduce-box {
+      img {
+        width: 80px;
       }
-      .introduce-img{
+
+      .introduce-img {
         width: 90px;
       }
     }
   }
 
-  .index-about{
-    .index-about-img{
-      margin-right: 64px;  
+  .index-about {
+    .index-about-img {
+      margin-right: 64px;
     }
-    .index-about-text{
+
+    .index-about-text {
       padding: 60px 0;
-      
+
     }
   }
 
-
-
-
+  .index-go {
+    background-image: url(.././images/index/bg-4.jpg);
+    background-size: cover;
+    background-position: left center;
+    .index-go-button{
+      width: 250px;
+    }
+    .mr{
+      margin-right: 200px ;
+    }
+  }
 }
 
 
-@include  web{
-  .index-banner{
-    img{
-      width: 80px;
-    }
-    .index-bannertext{
-      p{
-        padding:50px 100px;
+  @include web {
+    .index-banner {
+      img {
+        width: 80px;
+      }
+
+      .index-bannertext {
+        p {
+          padding: 50px 100px;
+        }
       }
     }
-  }
-  .index-introduce{
-    .index-introduce-box{
-      img{
-        width: 90px ;
-      }
-      .introduce-img{
-        width: 108px;
+
+    .index-introduce {
+      .index-introduce-box {
+        img {
+          width: 90px;
+        }
+
+        .introduce-img {
+          width: 108px;
+        }
       }
     }
+
+    .index-about {
+      .index-about-text {
+        padding: 150px 0;
+
+      }
+    }
+
+    .index-go {
+
+      .index-go-button{
+        width: 300px;
+      }
+      .mr{
+        margin-right: 250px ;
+      }
+    }
+
   }
 
-  .index-about{
-    .index-about-text{
-      padding: 150px 0;
-      
-    }
-  }
 
-}
+  

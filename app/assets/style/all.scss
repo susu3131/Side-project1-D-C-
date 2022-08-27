@@ -18,14 +18,18 @@
 @import "./helpers/util";
 @import "./helpers/mixins";
 
+// components
+@import "./components/toggle";
+@import "./components/swiper";
+
+
 // layout
 @import "./layout/layout";
 @import "./layout/header";
 @import "./layout/footer";
 @import "./layout/index";
 
-// components
-@import "./components/toggle";
+
 
 // // pages
 // @import "./pages/..";

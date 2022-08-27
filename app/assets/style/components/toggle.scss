@@ -1,4 +1,7 @@
-
+.index-choose{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9)
+}
 
 .chooose-content {
   font-size: 60px;
@@ -6,4 +9,12 @@
   .chooose-font {
     font-size: 40px;
   }
+}
+
+.choose-show{
+  display: block;
+}
+
+.choose-hide{
+  display: none;
 }
