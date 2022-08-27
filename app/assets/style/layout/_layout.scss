@@ -10,3 +10,14 @@
   outline: 5px solid;
   
 }
+
+
+.tittle-border:before{
+  content: '';
+  position: absolute;
+  bottom:-30px;
+  right:0%;
+  height: 1px;
+  width:65%;
+  background-color:$secondary;
+}
