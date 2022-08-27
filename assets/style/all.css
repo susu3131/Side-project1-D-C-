@@ -13254,6 +13254,15 @@ nav .navbar-toggler:focus, nav .navbar-toggler:hover {
   border-color: #2C2C2C !important;
 }
 
+nav .nav-hover:hover {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
 .footer-img {
   width: 100px;
   height: 100px;
