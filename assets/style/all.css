@@ -7957,6 +7957,10 @@ fieldset:disabled .btn {
   width: 30% !important;
 }
 
+.w-40 {
+  width: 40% !important;
+}
+
 .w-50 {
   width: 50% !important;
 }
@@ -8895,6 +8899,10 @@ fieldset:disabled .btn {
   font-size: 1.125rem !important;
 }
 
+.fs-10 {
+  font-size: 0.875rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -8909,6 +8917,10 @@ fieldset:disabled .btn {
 
 .fw-lighter {
   font-weight: lighter !important;
+}
+
+.fw-m {
+  font-weight: 500 !important;
 }
 
 .fw-normal {
@@ -9289,6 +9301,9 @@ fieldset:disabled .btn {
   }
   .w-sm-30 {
     width: 30% !important;
+  }
+  .w-sm-40 {
+    width: 40% !important;
   }
   .w-sm-50 {
     width: 50% !important;
@@ -10002,6 +10017,9 @@ fieldset:disabled .btn {
   .fs-sm-9 {
     font-size: 1.125rem !important;
   }
+  .fs-sm-10 {
+    font-size: 0.875rem !important;
+  }
   .text-sm-start {
     text-align: left !important;
   }
@@ -10071,6 +10089,9 @@ fieldset:disabled .btn {
   }
   .w-md-30 {
     width: 30% !important;
+  }
+  .w-md-40 {
+    width: 40% !important;
   }
   .w-md-50 {
     width: 50% !important;
@@ -10784,6 +10805,9 @@ fieldset:disabled .btn {
   .fs-md-9 {
     font-size: 1.125rem !important;
   }
+  .fs-md-10 {
+    font-size: 0.875rem !important;
+  }
   .text-md-start {
     text-align: left !important;
   }
@@ -10853,6 +10877,9 @@ fieldset:disabled .btn {
   }
   .w-lg-30 {
     width: 30% !important;
+  }
+  .w-lg-40 {
+    width: 40% !important;
   }
   .w-lg-50 {
     width: 50% !important;
@@ -11566,6 +11593,9 @@ fieldset:disabled .btn {
   .fs-lg-9 {
     font-size: 1.125rem !important;
   }
+  .fs-lg-10 {
+    font-size: 0.875rem !important;
+  }
   .text-lg-start {
     text-align: left !important;
   }
@@ -11635,6 +11665,9 @@ fieldset:disabled .btn {
   }
   .w-xl-30 {
     width: 30% !important;
+  }
+  .w-xl-40 {
+    width: 40% !important;
   }
   .w-xl-50 {
     width: 50% !important;
@@ -12348,6 +12381,9 @@ fieldset:disabled .btn {
   .fs-xl-9 {
     font-size: 1.125rem !important;
   }
+  .fs-xl-10 {
+    font-size: 0.875rem !important;
+  }
   .text-xl-start {
     text-align: left !important;
   }
@@ -12417,6 +12453,9 @@ fieldset:disabled .btn {
   }
   .w-xxl-30 {
     width: 30% !important;
+  }
+  .w-xxl-40 {
+    width: 40% !important;
   }
   .w-xxl-50 {
     width: 50% !important;
@@ -13129,6 +13168,9 @@ fieldset:disabled .btn {
   }
   .fs-xxl-9 {
     font-size: 1.125rem !important;
+  }
+  .fs-xxl-10 {
+    font-size: 0.875rem !important;
   }
   .text-xxl-start {
     text-align: left !important;
