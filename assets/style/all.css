@@ -13645,8 +13645,6 @@ nav .nav-hover:hover {
 .button-border-hover::before {
   content: "";
   position: absolute;
-  left: 25%;
-  bottom: 100px;
   border-radius: 20px;
   background-image: url(.././images/test.png);
   background-repeat: no-repeat;
@@ -13660,16 +13658,6 @@ nav .nav-hover:hover {
           transform: translateY(3%);
 }
 
-.button-border-hover:hover:before {
-  -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-  -webkit-transform: translateY(0%);
-      -ms-transform: translateY(0%);
-          transform: translateY(0%);
-  opacity: 1;
-}
-
 .button-border-hover-cat {
   position: relative;
 }
@@ -13677,29 +13665,13 @@ nav .nav-hover:hover {
 .button-border-hover-cat::before {
   content: "";
   position: absolute;
-  left: 25%;
-  bottom: 100px;
   border-radius: 20px;
   background-image: url(.././images/test1.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150px;
   width: 200px;
-  margin-left: auto;
   opacity: 0;
-  -webkit-transform: translateY(3%);
-      -ms-transform: translateY(3%);
-          transform: translateY(3%);
-}
-
-.button-border-hover-cat:hover:before {
-  -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-  -webkit-transform: translateY(0%);
-      -ms-transform: translateY(0%);
-          transform: translateY(0%);
-  opacity: 1;
 }
 
 @-webkit-keyframes shadow-drop-center {
@@ -13784,6 +13756,20 @@ nav .nav-hover:hover {
   .index-go .mr {
     margin-right: 200px;
   }
+  .button-border-hover-cat::before {
+    left: 19%;
+    bottom: 87Px;
+  }
+  .button-border-hover-cat:hover:before {
+    opacity: 1;
+  }
+  .button-border-hover::before {
+    left: 23%;
+    bottom: 92px;
+  }
+  .button-border-hover:hover:before {
+    opacity: 1;
+  }
 }
 
 @media (min-width: 992px) {
@@ -13807,6 +13793,20 @@ nav .nav-hover:hover {
   }
   .index-go .mr {
     margin-right: 250px;
+  }
+  .button-border-hover-cat::before {
+    left: 25%;
+    bottom: 100px;
+  }
+  .button-border-hover-cat:hover:before {
+    opacity: 1;
+  }
+  .button-border-hover::before {
+    left: 25%;
+    bottom: 104px;
+  }
+  .button-border-hover:hover:before {
+    opacity: 1;
   }
 }
 
