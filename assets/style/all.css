@@ -9235,6 +9235,10 @@ fieldset:disabled .btn {
   opacity: 0.75 !important;
 }
 
+.opacity-80 {
+  opacity: 0.8 !important;
+}
+
 .opacity-90 {
   opacity: 0.9 !important;
 }
@@ -13824,6 +13828,16 @@ nav .nav-hover:hover {
   .dog-button-list {
     margin-right: 200px !important;
   }
+}
+
+.frame {
+  height: 35px;
+  width: 350px;
+}
+
+.frame .frame-black {
+  height: 20px;
+  width: 200px;
 }
 
 @media (min-width: 768px) {
