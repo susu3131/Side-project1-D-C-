@@ -92,8 +92,6 @@
   &::before{
     content: "";
     position: absolute;
-    left: 25%;
-    bottom:100px;
     border-radius: 20px;
     background-image: url(.././images/test.png) ;
     background-repeat: no-repeat;
@@ -104,12 +102,7 @@
     opacity: 0;
     transform: translateY(3%);
   }
-  &:hover:before{
-    transition-duration: 0.2s;
-    transform: translateY(0%);
-    opacity: 1;
-    
-  }
+
 }
 
 .button-border-hover-cat{
@@ -118,23 +111,14 @@
   &::before{
     content: "";
     position: absolute;
-    left: 25%;
-    bottom:100px;
     border-radius: 20px;
     background-image: url(.././images/test1.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     height:150px;
     width: 200px;
-    margin-left: auto;
     opacity: 0;
-    transform: translateY(3%);
-  }
-  &:hover:before{
-    transition-duration: 0.2s;
-    transform: translateY(0%);
-    opacity: 1;
-    
+
   }
 
 }
@@ -260,6 +244,31 @@
       margin-right: 200px;
     }
   }
+  .button-border-hover-cat{
+    &::before{
+      left: 19%;
+      bottom:87Px;
+    }
+
+    &:hover:before{
+      opacity: 1;
+      
+    }
+  
+  }
+
+  .button-border-hover{
+    &::before{
+      left: 23%;
+      bottom:92px;
+      
+    }
+    
+    &:hover:before{
+      opacity: 1;
+      
+    }
+  }
 }
 
 
@@ -306,4 +315,29 @@
     }
   }
 
+  .button-border-hover-cat{
+    &::before{
+      left: 25%;
+      bottom:100px;
+    }
+
+    &:hover:before{
+      opacity: 1;
+      
+    }
+  
+  }
+
+  .button-border-hover{
+    &::before{
+      left: 25%;
+      bottom:104px;
+      
+    }
+    
+    &:hover:before{
+      opacity: 1;
+      
+    }
+  }
 }
