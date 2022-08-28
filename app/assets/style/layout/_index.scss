@@ -60,24 +60,84 @@
   background-position: center center;
 
   .index-go-button {
+    position: relative;
     border: 10px solid;
     border-radius: 115px;
     padding: 14px 32px;
+
+
   }
 
   .index-go-button:hover {
+    color: rgb(0, 0, 0);
     border-color: $black;
     opacity: 1;
     -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
 
-  .index-go-button{
+  .index-go-button {
     z-index: 500;
   }
 
+
+
+
+
 }
 
+.button-border-hover{
+  position: relative;
+  
+  &::before{
+    content: "";
+    position: absolute;
+    left: 25%;
+    bottom:100px;
+    border-radius: 20px;
+    background-image: url(.././images/test.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:150px;
+    width: 150px;
+    margin-left: auto;
+    opacity: 0;
+    transform: translateY(3%);
+  }
+  &:hover:before{
+    transition-duration: 0.2s;
+    transform: translateY(0%);
+    opacity: 1;
+    
+  }
+}
+
+.button-border-hover-cat{
+  position: relative;
+  
+  &::before{
+    content: "";
+    position: absolute;
+    left: 25%;
+    bottom:100px;
+    border-radius: 20px;
+    background-image: url(.././images/test1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:150px;
+    width: 200px;
+    margin-left: auto;
+    opacity: 0;
+    transform: translateY(3%);
+  }
+  &:hover:before{
+    transition-duration: 0.2s;
+    transform: translateY(0%);
+    opacity: 1;
+    
+  }
+
+}
 
 //button陰影
 @-webkit-keyframes shadow-drop-center {
@@ -191,59 +251,59 @@
     background-image: url(.././images/index/bg-4.jpg);
     background-size: cover;
     background-position: left center;
-    .index-go-button{
+
+    .index-go-button {
       width: 250px;
     }
-    .mr{
-      margin-right: 200px ;
+
+    .mr {
+      margin-right: 200px;
     }
   }
 }
 
 
-  @include web {
-    .index-banner {
-      img {
-        width: 80px;
-      }
-
-      .index-bannertext {
-        p {
-          padding: 50px 100px;
-        }
-      }
+@include web {
+  .index-banner {
+    img {
+      width: 80px;
     }
 
-    .index-introduce {
-      .index-introduce-box {
-        img {
-          width: 90px;
-        }
-
-        .introduce-img {
-          width: 108px;
-        }
+    .index-bannertext {
+      p {
+        padding: 50px 100px;
       }
     }
-
-    .index-about {
-      .index-about-text {
-        padding: 150px 0;
-
-      }
-    }
-
-    .index-go {
-
-      .index-go-button{
-        width: 300px;
-      }
-      .mr{
-        margin-right: 250px ;
-      }
-    }
-
   }
 
+  .index-introduce {
+    .index-introduce-box {
+      img {
+        width: 90px;
+      }
 
-  
+      .introduce-img {
+        width: 108px;
+      }
+    }
+  }
+
+  .index-about {
+    .index-about-text {
+      padding: 150px 0;
+
+    }
+  }
+
+  .index-go {
+
+    .index-go-button {
+      width: 300px;
+    }
+
+    .mr {
+      margin-right: 250px;
+    }
+  }
+
+}
