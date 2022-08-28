@@ -42,11 +42,33 @@
 }
 
 
-.nav-button:hover,.nav-button:focus{
-  color: white !important;
-  border-bottom: 5px solid ;
+.nav-button{
+  position: relative;
   
+  &::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:0;
+    height: 6px;
+    width: 100%;
+    margin-left: auto;
+    background-color: rgb(255, 255, 255);
+    transform: scale(0);
+  }
+  &:hover:before{
+    transition-duration: 0.3s;
+    transform: scale(1);
+  }
+  &:hover{
+    color: white !important;
+  }
 }
+
+
+  
+
+
 
 
 
