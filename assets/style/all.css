@@ -13389,6 +13389,10 @@ iframe {
   border-radius: 40px;
 }
 
+.radius-50 {
+  border-radius: 50px;
+}
+
 .link-hover:hover {
   background: #2C2C2C;
   color: white;
@@ -13400,6 +13404,9 @@ iframe {
 
 .img-hover:hover {
   opacity: 1 !important;
+  -webkit-transition-duration: 0.4s;
+       -o-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .bg-img {
@@ -13863,6 +13870,9 @@ nav .nav-hover:hover {
 @media (min-width: 992px) {
   .ms-150 {
     margin-left: 250px;
+  }
+  .dog-adopt .tittle-border-dc:before {
+    width: 58%;
   }
 }
 
