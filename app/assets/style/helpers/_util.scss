@@ -55,6 +55,10 @@
   border-radius: 40px;
 }
 
+.radius-50{
+  border-radius: 50px;
+}
+
 //hover
 .link-hover:hover{
   background: $secondary;
@@ -68,6 +72,7 @@
 
 .img-hover:hover{
   opacity:1 !important;
+  transition-duration: 0.4s;
 }
 
 //bg-img
