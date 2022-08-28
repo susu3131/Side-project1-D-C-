@@ -13620,12 +13620,14 @@ nav .nav-hover:hover {
 }
 
 .index-go .index-go-button {
+  position: relative;
   border: 10px solid;
   border-radius: 115px;
   padding: 14px 32px;
 }
 
 .index-go .index-go-button:hover {
+  color: black;
   border-color: #000;
   opacity: 1;
   -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -13634,6 +13636,70 @@ nav .nav-hover:hover {
 
 .index-go .index-go-button {
   z-index: 500;
+}
+
+.button-border-hover {
+  position: relative;
+}
+
+.button-border-hover::before {
+  content: "";
+  position: absolute;
+  left: 25%;
+  bottom: 100px;
+  border-radius: 20px;
+  background-image: url(.././images/test.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  opacity: 0;
+  -webkit-transform: translateY(3%);
+      -ms-transform: translateY(3%);
+          transform: translateY(3%);
+}
+
+.button-border-hover:hover:before {
+  -webkit-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+  opacity: 1;
+}
+
+.button-border-hover-cat {
+  position: relative;
+}
+
+.button-border-hover-cat::before {
+  content: "";
+  position: absolute;
+  left: 25%;
+  bottom: 100px;
+  border-radius: 20px;
+  background-image: url(.././images/test1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+  margin-left: auto;
+  opacity: 0;
+  -webkit-transform: translateY(3%);
+      -ms-transform: translateY(3%);
+          transform: translateY(3%);
+}
+
+.button-border-hover-cat:hover:before {
+  -webkit-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+  opacity: 1;
 }
 
 @-webkit-keyframes shadow-drop-center {
