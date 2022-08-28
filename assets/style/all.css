@@ -7961,6 +7961,14 @@ fieldset:disabled .btn {
   width: 50% !important;
 }
 
+.w-60 {
+  width: 60% !important;
+}
+
+.w-65 {
+  width: 65% !important;
+}
+
 .w-75 {
   width: 75% !important;
 }
@@ -9285,6 +9293,12 @@ fieldset:disabled .btn {
   .w-sm-50 {
     width: 50% !important;
   }
+  .w-sm-60 {
+    width: 60% !important;
+  }
+  .w-sm-65 {
+    width: 65% !important;
+  }
   .w-sm-75 {
     width: 75% !important;
   }
@@ -10060,6 +10074,12 @@ fieldset:disabled .btn {
   }
   .w-md-50 {
     width: 50% !important;
+  }
+  .w-md-60 {
+    width: 60% !important;
+  }
+  .w-md-65 {
+    width: 65% !important;
   }
   .w-md-75 {
     width: 75% !important;
@@ -10837,6 +10857,12 @@ fieldset:disabled .btn {
   .w-lg-50 {
     width: 50% !important;
   }
+  .w-lg-60 {
+    width: 60% !important;
+  }
+  .w-lg-65 {
+    width: 65% !important;
+  }
   .w-lg-75 {
     width: 75% !important;
   }
@@ -11613,6 +11639,12 @@ fieldset:disabled .btn {
   .w-xl-50 {
     width: 50% !important;
   }
+  .w-xl-60 {
+    width: 60% !important;
+  }
+  .w-xl-65 {
+    width: 65% !important;
+  }
   .w-xl-75 {
     width: 75% !important;
   }
@@ -12388,6 +12420,12 @@ fieldset:disabled .btn {
   }
   .w-xxl-50 {
     width: 50% !important;
+  }
+  .w-xxl-60 {
+    width: 60% !important;
+  }
+  .w-xxl-65 {
+    width: 65% !important;
   }
   .w-xxl-75 {
     width: 75% !important;
@@ -13407,9 +13445,35 @@ iframe {
   font-size: 100px;
 }
 
-.nav-button:hover, .nav-button:focus {
+.nav-button {
+  position: relative;
+}
+
+.nav-button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 6px;
+  width: 100%;
+  margin-left: auto;
+  background-color: white;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+}
+
+.nav-button:hover:before {
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+
+.nav-button:hover {
   color: white !important;
-  border-bottom: 5px solid;
 }
 
 nav .navbar-collapse {
@@ -13669,7 +13733,7 @@ nav .nav-hover:hover {
 
 @media (min-width: 768px) {
   .banner-tittle-adopt {
-    background-image: url(.././images/dog/dog-b4.jpg) !important;
+    background-image: url(.././images/dog/dog-b4.png) !important;
     height: 350px !important;
   }
 }
