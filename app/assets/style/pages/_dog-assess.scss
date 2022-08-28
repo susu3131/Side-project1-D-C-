@@ -1,7 +1,19 @@
+.frame{
+  height: 35px;
+  width: 350px;
+  .frame-black{
+    height: 20px;
+    width: 200px;
+  }
+}
 
 
+// @include ipad-sm{
+//   .dog-assess-icon{
 
+//   }
 
+// }
 
 
 @include ipad{
@@ -10,6 +22,7 @@
     height: 350px !important;
 
   }
+
 }
 
 
