@@ -7973,8 +7973,16 @@ fieldset:disabled .btn {
   width: 65% !important;
 }
 
+.w-70 {
+  width: 70% !important;
+}
+
 .w-75 {
   width: 75% !important;
+}
+
+.w-80 {
+  width: 80% !important;
 }
 
 .w-85 {
@@ -9318,8 +9326,14 @@ fieldset:disabled .btn {
   .w-sm-65 {
     width: 65% !important;
   }
+  .w-sm-70 {
+    width: 70% !important;
+  }
   .w-sm-75 {
     width: 75% !important;
+  }
+  .w-sm-80 {
+    width: 80% !important;
   }
   .w-sm-85 {
     width: 85% !important;
@@ -10106,8 +10120,14 @@ fieldset:disabled .btn {
   .w-md-65 {
     width: 65% !important;
   }
+  .w-md-70 {
+    width: 70% !important;
+  }
   .w-md-75 {
     width: 75% !important;
+  }
+  .w-md-80 {
+    width: 80% !important;
   }
   .w-md-85 {
     width: 85% !important;
@@ -10894,8 +10914,14 @@ fieldset:disabled .btn {
   .w-lg-65 {
     width: 65% !important;
   }
+  .w-lg-70 {
+    width: 70% !important;
+  }
   .w-lg-75 {
     width: 75% !important;
+  }
+  .w-lg-80 {
+    width: 80% !important;
   }
   .w-lg-85 {
     width: 85% !important;
@@ -11682,8 +11708,14 @@ fieldset:disabled .btn {
   .w-xl-65 {
     width: 65% !important;
   }
+  .w-xl-70 {
+    width: 70% !important;
+  }
   .w-xl-75 {
     width: 75% !important;
+  }
+  .w-xl-80 {
+    width: 80% !important;
   }
   .w-xl-85 {
     width: 85% !important;
@@ -12470,8 +12502,14 @@ fieldset:disabled .btn {
   .w-xxl-65 {
     width: 65% !important;
   }
+  .w-xxl-70 {
+    width: 70% !important;
+  }
   .w-xxl-75 {
     width: 75% !important;
+  }
+  .w-xxl-80 {
+    width: 80% !important;
   }
   .w-xxl-85 {
     width: 85% !important;
@@ -13850,13 +13888,16 @@ nav .nav-hover:hover {
   height: 15px;
 }
 
+@media (min-width: 576px) {
+  .bg-qa {
+    background-image: url(.././images/dog/dog-assest-bg.jpg) !important;
+  }
+}
+
 @media (min-width: 768px) {
   .banner-tittle-assest {
     background-image: url(.././images/dog/dog-b5.jpg) !important;
     height: 350px !important;
-  }
-  .bg-qa {
-    background-image: url(.././images/dog/dog-assest-bg.jpg) !important;
   }
   .bg-money {
     background-image: url(.././images/dog/dog-assest-bg-1.jpg) !important;
