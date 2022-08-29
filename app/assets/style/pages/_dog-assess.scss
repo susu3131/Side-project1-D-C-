@@ -10,7 +10,11 @@
   }
 }
 
-
+@include ipad-sm{
+  .bg-qa{
+    background-image:url(.././images/dog/dog-assest-bg.jpg) !important;
+  }
+}
 
 @include ipad{
   .banner-tittle-assest{
@@ -18,9 +22,7 @@
     height: 350px !important;
 
   }
-  .bg-qa{
-    background-image:url(.././images/dog/dog-assest-bg.jpg) !important;
-  }
+
   .bg-money{
     background-image:url(.././images/dog/dog-assest-bg-1.jpg) !important;
   }
