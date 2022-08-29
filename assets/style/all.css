@@ -13982,15 +13982,9 @@ nav .nav-hover:hover {
 }
 
 @media (min-width: 768px) {
-  .banner-tittle {
-    background-image: url(.././images/dog/dog-b1.jpg) !important;
+  .cat-banner-tittle-adopt {
+    background-image: url(.././images/cat/cat-bg-4.jpg) !important;
     height: 350px !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .ms-150 {
-    margin-left: 250px;
   }
 }
 
