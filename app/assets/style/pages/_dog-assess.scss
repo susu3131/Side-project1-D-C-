@@ -1,19 +1,15 @@
 .frame{
-  height: 35px;
-  width: 350px;
+  height: 32px;
+  width: 230px;
+  .frame-box{
+    border: 1px solid $secondary;
+
+  }
   .frame-black{
-    height: 20px;
-    width: 200px;
+    height: 15px;
   }
 }
 
-
-// @include ipad-sm{
-//   .dog-assess-icon{
-
-//   }
-
-// }
 
 
 @include ipad{
@@ -22,7 +18,13 @@
     height: 350px !important;
 
   }
-
+  .bg-qa{
+    background-image:url(.././images/dog/dog-assest-bg.jpg) !important;
+  }
+  .bg-money{
+    background-image:url(.././images/dog/dog-assest-bg-1.jpg) !important;
+  }
+  
 }
 
 
