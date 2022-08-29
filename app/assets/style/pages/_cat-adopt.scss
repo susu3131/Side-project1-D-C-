@@ -1,22 +1,7 @@
-
-
-
-
-
-
 @include ipad{
-  .banner-tittle{
-    background-image: url(.././images/dog/dog-b1.jpg) !important;
+  .cat-banner-tittle-adopt{
+    background-image: url(.././images/cat/cat-bg-4.jpg) !important;
     height: 350px !important;
 
   }
-}
-
-
-@include web{
-  .ms-150{
-    margin-left: 250px;
-  }
-  
-
 }
