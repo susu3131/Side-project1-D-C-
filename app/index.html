@@ -4,6 +4,16 @@ layout: ./app/index.ejs
 engine: ejs
 current: index
 ---
+
+<div class="loading" id="preloader">
+  <div class="load d-flex justify-content-center align-items-center">
+    <div class="status" id="test"><img src="./assets/images/layout/loader.gif" /></div>
+    <p class="fs-1 fw-bold">Loading ...  </p>
+  </div>
+</div>
+
+
+
 <!-- index-banner -->
 <div class="index-banner  overflow-hidden">
   <div class="index-banner-bg vh-80  vh-lg-90  d-flex flex-column justify-content-center">
@@ -96,7 +106,9 @@ current: index
 </div>
 
 <!-- .index-about -->
-<div  class="index-about  pt-80 pb-80   text-light2  d-flex flex-column flex-md-row align-items-center p-md-0  align-items-md-stretch"  id="index-about">
+<div
+  class="index-about  pt-80 pb-80   text-light2  d-flex flex-column flex-md-row align-items-center p-md-0  align-items-md-stretch"
+  id="index-about">
   <!-- //tittle 隱藏 -->
   <div class="index-about  d-flex align-items-center  mb-4 d-md-none ">
     <img src="./assets/images/index/icon-gray (2).png" alt="icon-gray (2).png" width="30">
@@ -159,9 +171,10 @@ current: index
   <!-- 輪播區塊 -->
   <div class=" index-photo-bg  w-100 d-flex justify-content-center align-items-center pt-3 pb-3 pt-xl-5 pb-xl-5">
     <!-- //swiper JPG -->
-    
+
     <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-      class="swiper mySwiper container vh-30  position-relative  overflow-hidden " data-aos="zoom-in" data-aos-duration="1300">
+      class="swiper mySwiper container vh-30  position-relative  overflow-hidden " data-aos="zoom-in"
+      data-aos-duration="1300">
       <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
       <div class="swiper-wrapper ">
         <div class="swiper-slide">
@@ -261,19 +274,24 @@ current: index
 </div>
 
 <!-- index-go -->
-<div class="index-go pt-80 pb-80 bg-light d-flex flex-column   justify-content-center align-items-center position-relative" id="index-go">
+<div
+  class="index-go pt-80 pb-80 bg-light d-flex flex-column   justify-content-center align-items-center position-relative"
+  id="index-go">
   <h2 class="fw-bold fs-7 mb-60" data-aos="fade-up" data-aos-duration="1000">GO</h2>
 
   <div class="d-flex flex-column flex-md-row  position-relative " data-aos="zoom-in" data-aos-duration="1300">
-    <div class=" button-border-hover index-go-button mr button btn btn-outline-secondary bg-light mb-60  fs-sm-5   fs-lg-3   pt-md-4 pb-md-4 index-dc" >
-      <p >我想養毛小孩</p>
+    <div
+      class=" button-border-hover index-go-button mr button btn btn-outline-secondary bg-light mb-60  fs-sm-5   fs-lg-3   pt-md-4 pb-md-4 index-dc">
+      <p>我想養毛小孩</p>
     </div>
-    <div class="border-after  position-absolute d-none  fs-5 d-md-flex w-100 justify-content-center align-items-center border-3 border-secondary border-bottom pb-4" > 
-      <img  src="./assets/images/index/icon-7.png" alt="icon-7.png" width="30">
-      <p class="w-15 text-center position-relative " >快速前往</p>
+    <div
+      class="border-after  position-absolute d-none  fs-5 d-md-flex w-100 justify-content-center align-items-center border-3 border-secondary border-bottom pb-4">
+      <img src="./assets/images/index/icon-7.png" alt="icon-7.png" width="30">
+      <p class="w-15 text-center position-relative ">快速前往</p>
       <img src="./assets/images/index/icon-4.png" alt="icon-4.png" width="30">
     </div>
-    <a class="button-border-hover-cat index-go-button button  btn btn-outline-secondary bg-light mb-60   fs-sm-5  fs-lg-3 pt-md-4 pb-md-4" href="pet.html">
+    <a class="button-border-hover-cat index-go-button button  btn btn-outline-secondary bg-light mb-60   fs-sm-5  fs-lg-3 pt-md-4 pb-md-4"
+      href="pet.html">
       <p>我有毛小孩</p>
     </a>
   </div>
@@ -302,26 +320,25 @@ current: index
   </ul>
 
   <!-- //D&C Choose toggle -->
-<div class="index-choose  pt-60 pb-60  w-100 position-absolute choose-hide" >
-  <h3 class="text-primary text-center fs-1 mb-5 d-md-block  mb-md-0 ">你想養?</h3>
-  <div class=" container d-md-flex  justify-content-center ">
-    <!-- //dog -->
-    <a href="dog.html"><img class="radius-40 mx-auto mb-5 opacity-70 img-hover me-md-6"
-        src="./assets/images/index/dog-1.jpg" alt="dog.jpg" width="200" height="200">
-    </a>
-    <!-- font -->
-    <div class="chooose-content d-md-flex d-none text-primary align-items-center ">
-      <p>D</p>
-      <p class="chooose-font ms-5 me-5">&</p>
-      <p>C</p>
+  <div class="index-choose  pt-60 pb-60  w-100 position-absolute choose-hide">
+    <h3 class="text-primary text-center fs-1 mb-5 d-md-block  mb-md-0 ">你想養?</h3>
+    <div class=" container d-md-flex  justify-content-center ">
+      <!-- //dog -->
+      <a href="dog.html"><img class="radius-40 mx-auto mb-5 opacity-70 img-hover me-md-6"
+          src="./assets/images/index/dog-1.jpg" alt="dog.jpg" width="200" height="200">
+      </a>
+      <!-- font -->
+      <div class="chooose-content d-md-flex d-none text-primary align-items-center ">
+        <p>D</p>
+        <p class="chooose-font ms-5 me-5">&</p>
+        <p>C</p>
+      </div>
+      <!-- //cat -->
+      <a href="cat.html">
+        <img class="radius-40 mx-auto opacity-70 img-hover ms-md-6" src="./assets/images/index/cat-1.jpg" alt="cat.jpg"
+          width="200" height="200">
+      </a>
     </div>
-    <!-- //cat -->
-    <a href="cat.html">
-      <img class="radius-40 mx-auto opacity-70 img-hover ms-md-6" src="./assets/images/index/cat-1.jpg" alt="cat.jpg"
-        width="200" height="200">
-    </a>
   </div>
-</div>
 
 </div>
-

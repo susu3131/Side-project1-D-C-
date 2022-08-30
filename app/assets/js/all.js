@@ -1,11 +1,21 @@
-$(document).ready(function () {
+$(window).on('load',function(){
+  $('.loading').addClass('loader-show');
+})
 
+$(document).ready(function () {
+  //首頁toggle 選單
   $(".index-dc").click(function (e) {
     event.preventDefault();
     $(".index-choose").toggle();
 
   });
+
 })
+
+
+
+
+
 
 
 //首頁輪播
