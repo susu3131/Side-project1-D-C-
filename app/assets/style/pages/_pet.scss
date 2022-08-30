@@ -1,0 +1,31 @@
+@include ipad-sm {
+  .Swiper-video{
+    .iframe{
+      width: 85% !important;
+    }
+  }
+}
+
+@include ipad {
+  .pet-bg {
+    background-image: url(.././images/pet/pet-bg.jpg) !important;
+  }
+  .Swiper-video{
+    .iframe{
+      width: 1000px !important;
+    }
+  }
+}
+
+@include web {
+  .pet-bg {
+    background-image: url(.././images/pet/pet-bg.jpg) !important;
+
+  }
+
+  .Swiper-video{
+    .iframe{
+      width: 1000px !important;
+    }
+  }
+}
