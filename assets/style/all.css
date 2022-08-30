@@ -13868,18 +13868,6 @@ nav .nav-hover:hover {
   background-image: url(.././images/dog/dog-index-sm-1.jpg);
 }
 
-@media (min-width: 576px) {
-  .dog-bg {
-    background-image: url(.././images/dog/dog-index-1.jpg);
-  }
-}
-
-@media (min-width: 992px) {
-  .dog-button-list {
-    margin-right: 200px !important;
-  }
-}
-
 .frame {
   height: 32px;
   width: 230px;
@@ -13894,12 +13882,27 @@ nav .nav-hover:hover {
 }
 
 @media (min-width: 576px) {
+  .dog-bg {
+    background-image: url(.././images/dog/dog-index-1.jpg);
+  }
   .bg-qa {
     background-image: url(.././images/dog/dog-assest-bg.jpg) !important;
   }
 }
 
 @media (min-width: 768px) {
+  .banner-tittle-ready {
+    background-image: url(.././images/dog/dog-b2.jpg) !important;
+    height: 350px !important;
+  }
+  .banner-tittle {
+    background-image: url(.././images/dog/dog-b1.jpg) !important;
+    height: 350px !important;
+  }
+  .banner-tittle-adopt {
+    background-image: url(.././images/dog/dog-b4.png) !important;
+    height: 350px !important;
+  }
   .banner-tittle-assest {
     background-image: url(.././images/dog/dog-b5.jpg) !important;
     height: 350px !important;
@@ -13910,19 +13913,9 @@ nav .nav-hover:hover {
 }
 
 @media (min-width: 992px) {
-  .ms-150 {
-    margin-left: 250px;
+  .dog-button-list {
+    margin-right: 200px !important;
   }
-}
-
-@media (min-width: 768px) {
-  .banner-tittle-adopt {
-    background-image: url(.././images/dog/dog-b4.png) !important;
-    height: 350px !important;
-  }
-}
-
-@media (min-width: 992px) {
   .ms-150 {
     margin-left: 250px;
   }
@@ -13931,59 +13924,8 @@ nav .nav-hover:hover {
   }
 }
 
-@media (min-width: 768px) {
-  .banner-tittle {
-    background-image: url(.././images/dog/dog-b1.jpg) !important;
-    height: 350px !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .ms-150 {
-    margin-left: 250px;
-  }
-}
-
-@media (min-width: 768px) {
-  .banner-tittle-ready {
-    background-image: url(.././images/dog/dog-b2.jpg) !important;
-    height: 350px !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .ms-150 {
-    margin-left: 250px;
-  }
-}
-
 .cat-bg {
   background-image: url(.././images/cat/cat-index-sm-1.jpg);
-}
-
-@media (min-width: 576px) {
-  .cat-bg {
-    background-image: url(.././images/cat/cat-banner.png);
-  }
-}
-
-@media (min-width: 992px) {
-  .cat-button-list {
-    margin-right: 200px !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .banner-tittle {
-    background-image: url(.././images/dog/dog-b1.jpg) !important;
-    height: 350px !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .ms-150 {
-    margin-left: 250px;
-  }
 }
 
 @media (min-width: 768px) {
@@ -14005,29 +13947,15 @@ nav .nav-hover:hover {
   }
 }
 
-@media (min-width: 768px) {
-  .banner-tittle {
-    background-image: url(.././images/dog/dog-b1.jpg) !important;
-    height: 350px !important;
+@media (min-width: 576px) {
+  .cat-bg {
+    background-image: url(.././images/cat/cat-banner.png);
   }
 }
 
 @media (min-width: 992px) {
-  .ms-150 {
-    margin-left: 250px;
-  }
-}
-
-@media (min-width: 768px) {
-  .banner-tittle {
-    background-image: url(.././images/dog/dog-b1.jpg) !important;
-    height: 350px !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .ms-150 {
-    margin-left: 250px;
+  .cat-button-list {
+    margin-right: 200px !important;
   }
 }
 
