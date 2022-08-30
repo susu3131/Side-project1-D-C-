@@ -1,6 +1,18 @@
 .dog-bg{
   background-image: url(.././images/dog/dog-index-sm-1.jpg);
 }
+//dog-assess 表格
+.frame{
+  height: 32px;
+  width: 230px;
+  .frame-box{
+    border: 1px solid $secondary;
+
+  }
+  .frame-black{
+    height: 15px;
+  }
+}
 
 
 
@@ -8,10 +20,51 @@
   .dog-bg{
     background-image: url(.././images/dog/dog-index-1.jpg);
   }
+  .bg-qa{
+    background-image:url(.././images/dog/dog-assest-bg.jpg) !important;
+  }
+}
+
+
+@include ipad{
+  .banner-tittle-ready{
+    background-image: url(.././images/dog/dog-b2.jpg) !important;
+    height: 350px !important;
+
+  }
+  .banner-tittle{
+    background-image: url(.././images/dog/dog-b1.jpg) !important;
+    height: 350px !important;
+
+  }
+  .banner-tittle-adopt{
+    background-image: url(.././images/dog/dog-b4.png) !important;
+    height: 350px !important;
+
+  }
+  .banner-tittle-assest{
+    background-image: url(.././images/dog/dog-b5.jpg) !important;
+    height: 350px !important;
+
+  }
+
+  .bg-money{
+    background-image:url(.././images/dog/dog-assest-bg-1.jpg) !important;
+  }
+  
 }
 
 @include web{
   .dog-button-list{
     margin-right: 200px !important;
   }
+  .ms-150{
+    margin-left: 250px;
+  }
+  
+  .dog-adopt{
+    .tittle-border-dc:before{
+      width: 58%;
+    }
+  }  
 }
