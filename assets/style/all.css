@@ -13947,6 +13947,20 @@ nav .nav-hover:hover {
   background-image: url(.././images/cat/cat-index-sm-1.jpg);
 }
 
+.lady-shop::before {
+  content: "";
+  position: absolute;
+  background-image: url(.././images/cat/hover.png);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  left: 5%;
+  bottom: 10%;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+}
+
 @media (min-width: 768px) {
   .cat-banner-tittle-adopt {
     background-image: url(.././images/cat/cat-bg-4.jpg) !important;
@@ -13963,6 +13977,14 @@ nav .nav-hover:hover {
   .cat-assess-banner-tittle {
     background-image: url(.././images/cat/cat-bg-1.jpg) !important;
     height: 350px !important;
+  }
+  .lady-shop:hover::before {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
   }
 }
 
@@ -13981,6 +14003,16 @@ nav .nav-hover:hover {
 @media (min-width: 992px) {
   .cat-button-list {
     margin-right: 200px !important;
+  }
+  .lady-shop:hover::before {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    left: 15%;
+    bottom: 10%;
   }
 }
 
