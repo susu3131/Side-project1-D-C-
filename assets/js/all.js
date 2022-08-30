@@ -1,7 +1,7 @@
 "use strict";
 
 $(window).on('load', function () {
-  $('.loading').addClass('loader-show');
+  $('.loading').addClass('loader-hide');
 });
 $(document).ready(function () {
   //首頁toggle 選單
