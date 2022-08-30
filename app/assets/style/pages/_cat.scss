@@ -33,6 +33,13 @@
   .cat-bg{
     background-image: url(.././images/cat/cat-banner.png);
   }
+  .bg-cat-qa{
+    background-image:url(.././images/cat/cat-assest-bg.png) !important;
+  }
+  .bg-cat-money{
+    background-image:url(.././images/cat/cat-assest-bg1.png) !important;
+  }
+
 }
 
 @include web{
