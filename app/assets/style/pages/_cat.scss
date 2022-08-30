@@ -1,49 +1,87 @@
-.cat-bg{
+.cat-bg {
   background-image: url(.././images/cat/cat-index-sm-1.jpg);
 }
 
-@include ipad{
-  .cat-banner-tittle-adopt{
+.lady-shop {
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(.././images/cat/hover.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    left: 5%;
+    bottom: 10%;
+    transform: scale(0);
+
+  }
+
+
+}
+
+
+@include ipad {
+  .cat-banner-tittle-adopt {
     background-image: url(.././images/cat/cat-bg-4.jpg) !important;
     height: 350px !important;
 
   }
 
-  .cat-ready-banner-tittle{
+  .cat-ready-banner-tittle {
     background-image: url(.././images/cat/cat-bg-2.jpg) !important;
     height: 350px !important;
   }
 
-  .cat-love-banner-tittle{
+  .cat-love-banner-tittle {
     background-image: url(.././images/cat/cat-bg-3.jpg) !important;
     height: 350px !important;
 
   }
 
-  .cat-assess-banner-tittle{
+  .cat-assess-banner-tittle {
     background-image: url(.././images/cat/cat-bg-1.jpg) !important;
     height: 350px !important;
 
   }
+
+  .lady-shop {
+    &:hover::before {
+      transform: scale(1);
+      transition-duration: 0.5s;
+
+    }
+  }
 }
 
 
 
-@include ipad-sm{
-  .cat-bg{
+@include ipad-sm {
+  .cat-bg {
     background-image: url(.././images/cat/cat-banner.png);
   }
-  .bg-cat-qa{
-    background-image:url(.././images/cat/cat-assest-bg.png) !important;
+
+  .bg-cat-qa {
+    background-image: url(.././images/cat/cat-assest-bg.png) !important;
   }
-  .bg-cat-money{
-    background-image:url(.././images/cat/cat-assest-bg1.png) !important;
+
+  .bg-cat-money {
+    background-image: url(.././images/cat/cat-assest-bg1.png) !important;
   }
 
 }
 
-@include web{
-  .cat-button-list{
+@include web {
+  .cat-button-list {
     margin-right: 200px !important;
+  }
+
+  
+  .lady-shop {
+    &:hover::before {
+      transform: scale(1);
+      transition-duration: 0.5s;
+      left: 15%;
+      bottom: 10%;
+    }
   }
 }
