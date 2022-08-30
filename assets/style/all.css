@@ -13452,6 +13452,11 @@ iframe {
   background-position: center center;
 }
 
+.bg-img-bottom {
+  background-size: cover;
+  background-position: center bottom;
+}
+
 .bg-black-op {
   background: rgba(0, 0, 0, 0.7);
 }
