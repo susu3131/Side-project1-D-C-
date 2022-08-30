@@ -7961,6 +7961,10 @@ fieldset:disabled .btn {
   width: 40% !important;
 }
 
+.w-45 {
+  width: 45% !important;
+}
+
 .w-50 {
   width: 50% !important;
 }
@@ -9317,6 +9321,9 @@ fieldset:disabled .btn {
   .w-sm-40 {
     width: 40% !important;
   }
+  .w-sm-45 {
+    width: 45% !important;
+  }
   .w-sm-50 {
     width: 50% !important;
   }
@@ -10110,6 +10117,9 @@ fieldset:disabled .btn {
   }
   .w-md-40 {
     width: 40% !important;
+  }
+  .w-md-45 {
+    width: 45% !important;
   }
   .w-md-50 {
     width: 50% !important;
@@ -10905,6 +10915,9 @@ fieldset:disabled .btn {
   .w-lg-40 {
     width: 40% !important;
   }
+  .w-lg-45 {
+    width: 45% !important;
+  }
   .w-lg-50 {
     width: 50% !important;
   }
@@ -11699,6 +11712,9 @@ fieldset:disabled .btn {
   .w-xl-40 {
     width: 40% !important;
   }
+  .w-xl-45 {
+    width: 45% !important;
+  }
   .w-xl-50 {
     width: 50% !important;
   }
@@ -12492,6 +12508,9 @@ fieldset:disabled .btn {
   }
   .w-xxl-40 {
     width: 40% !important;
+  }
+  .w-xxl-45 {
+    width: 45% !important;
   }
   .w-xxl-50 {
     width: 50% !important;
@@ -13950,6 +13969,12 @@ nav .nav-hover:hover {
 @media (min-width: 576px) {
   .cat-bg {
     background-image: url(.././images/cat/cat-banner.png);
+  }
+  .bg-cat-qa {
+    background-image: url(.././images/cat/cat-assest-bg.png) !important;
+  }
+  .bg-cat-money {
+    background-image: url(.././images/cat/cat-assest-bg1.png) !important;
   }
 }
 
