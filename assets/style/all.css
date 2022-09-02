@@ -8057,8 +8057,16 @@ fieldset:disabled .btn {
   height: 30vh !important;
 }
 
+.vh-40 {
+  height: 40vh !important;
+}
+
 .vh-50 {
   height: 50vh !important;
+}
+
+.vh-55 {
+  height: 55vh !important;
 }
 
 .vh-60 {
@@ -9385,8 +9393,14 @@ fieldset:disabled .btn {
   .vh-sm-30 {
     height: 30vh !important;
   }
+  .vh-sm-40 {
+    height: 40vh !important;
+  }
   .vh-sm-50 {
     height: 50vh !important;
+  }
+  .vh-sm-55 {
+    height: 55vh !important;
   }
   .vh-sm-60 {
     height: 60vh !important;
@@ -10185,8 +10199,14 @@ fieldset:disabled .btn {
   .vh-md-30 {
     height: 30vh !important;
   }
+  .vh-md-40 {
+    height: 40vh !important;
+  }
   .vh-md-50 {
     height: 50vh !important;
+  }
+  .vh-md-55 {
+    height: 55vh !important;
   }
   .vh-md-60 {
     height: 60vh !important;
@@ -10985,8 +11005,14 @@ fieldset:disabled .btn {
   .vh-lg-30 {
     height: 30vh !important;
   }
+  .vh-lg-40 {
+    height: 40vh !important;
+  }
   .vh-lg-50 {
     height: 50vh !important;
+  }
+  .vh-lg-55 {
+    height: 55vh !important;
   }
   .vh-lg-60 {
     height: 60vh !important;
@@ -11785,8 +11811,14 @@ fieldset:disabled .btn {
   .vh-xl-30 {
     height: 30vh !important;
   }
+  .vh-xl-40 {
+    height: 40vh !important;
+  }
   .vh-xl-50 {
     height: 50vh !important;
+  }
+  .vh-xl-55 {
+    height: 55vh !important;
   }
   .vh-xl-60 {
     height: 60vh !important;
@@ -12585,8 +12617,14 @@ fieldset:disabled .btn {
   .vh-xxl-30 {
     height: 30vh !important;
   }
+  .vh-xxl-40 {
+    height: 40vh !important;
+  }
   .vh-xxl-50 {
     height: 50vh !important;
+  }
+  .vh-xxl-55 {
+    height: 55vh !important;
   }
   .vh-xxl-60 {
     height: 60vh !important;
@@ -13432,6 +13470,10 @@ p {
   margin-left: 150px;
 }
 
+.p-100 {
+  padding: 100px;
+}
+
 .pt-80 {
   padding-top: 80px;
 }
@@ -14127,6 +14169,9 @@ nav .nav-hover:hover {
 @media (min-width: 768px) {
   .pet-hospital-banner {
     background-image: url(.././images/pet/Hospital-banner.png) !important;
+  }
+  .pet-knowledge-banner {
+    background-image: url(.././images/pet/pet-Knowledge.png) !important;
   }
   .pet-bg {
     background-image: url(.././images/pet/pet-bg.jpg) !important;
