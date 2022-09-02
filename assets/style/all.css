@@ -7775,6 +7775,10 @@ fieldset:disabled .btn {
   top: 30% !important;
 }
 
+.top-45 {
+  top: 45% !important;
+}
+
 .top-50 {
   top: 50% !important;
 }
@@ -7789,6 +7793,10 @@ fieldset:disabled .btn {
 
 .bottom-30 {
   bottom: 30% !important;
+}
+
+.bottom-45 {
+  bottom: 45% !important;
 }
 
 .bottom-50 {
@@ -7807,6 +7815,10 @@ fieldset:disabled .btn {
   left: 30% !important;
 }
 
+.start-45 {
+  left: 45% !important;
+}
+
 .start-50 {
   left: 50% !important;
 }
@@ -7821,6 +7833,10 @@ fieldset:disabled .btn {
 
 .end-30 {
   right: 30% !important;
+}
+
+.end-45 {
+  right: 45% !important;
 }
 
 .end-50 {
