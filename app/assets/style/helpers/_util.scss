@@ -61,6 +61,9 @@
 .radius-50{
   border-radius: 50px;
 }
+.radius-c{
+  border-radius: 50%;
+}
 
 //hover
 .link-hover:hover{
@@ -82,7 +85,11 @@
   transition-duration: 0.4s;
 }
 
+.img-big:hover{
+  transform: scale(1.2);
+  transition-duration: 2s;
 
+}
 
 //bg-img
 .bg-img{
@@ -109,4 +116,7 @@
 }
   
   
-  
+  //z-index
+.z-index-300{
+  z-index: 300;
+}
