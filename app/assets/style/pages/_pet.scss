@@ -5,7 +5,7 @@
     position: absolute;
     background: rgb(19, 19, 19);
     z-index: -30;
-    width: 110px;
+    width: 35%;
     height:100%;
     transform:translateX(-50%) translateY(-100%)
   
@@ -19,10 +19,13 @@
   }
 
 
-
+.pet-medical-Hospital{
+  background-attachment: fixed;
+}
 
 
 @include ipad-sm {
+  
   .hospital-list-hover{
     &::before{
       content: "";
@@ -65,7 +68,10 @@
     background-image: url(.././images/pet/pet-Knowledge.png) !important;
   }
     
-  
+  .pet-medical-Hospital{
+    background-image: url(.././images/pet/pet-bg.png) !important;
+    background-position: right  ;
+  }
   .pet-bg {
     background-image: url(.././images/pet/pet-bg.jpg) !important;
   }
@@ -74,6 +80,8 @@
       width: 1000px !important;
     }
   }
+
+
 }
 
 @include web {
