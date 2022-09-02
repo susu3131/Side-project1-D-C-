@@ -13602,6 +13602,10 @@ p {
   border-radius: 50px;
 }
 
+.radius-c {
+  border-radius: 50%;
+}
+
 .link-hover:hover {
   background: #2C2C2C;
   color: white;
@@ -13622,6 +13626,15 @@ p {
           transition-duration: 0.4s;
 }
 
+.img-big:hover {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition-duration: 2s;
+       -o-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
 .bg-img {
   background-size: cover;
   background-position: center center;
@@ -13639,6 +13652,10 @@ p {
 .animation {
   -webkit-animation: DC 3s;
           animation: DC 3s;
+}
+
+.z-index-300 {
+  z-index: 300;
 }
 
 .index-choose {
@@ -14203,6 +14220,11 @@ nav .nav-hover:hover {
     left: 15%;
     bottom: 10%;
   }
+}
+
+.img-overhidden {
+  width: 300px;
+  height: 300px;
 }
 
 .hospital-list-hover::before {
