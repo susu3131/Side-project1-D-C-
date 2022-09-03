@@ -5420,8 +5420,8 @@ fieldset:disabled .btn {
   z-index: 3;
   border-color: white;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .accordion-header {
@@ -13643,7 +13643,7 @@ p {
 
 .link-hover:hover {
   background: #2C2C2C;
-  color: white;
+  color: white !important;
 }
 
 .white-hover:hover {
@@ -13726,10 +13726,6 @@ p {
   opacity: 0.5;
 }
 
-.swiper-slide-next {
-  margin-left: 24px;
-}
-
 .left {
   position: absolute;
   left: -50px;
@@ -13748,6 +13744,10 @@ p {
 
 .swiper-pagination-bullet-active {
   background: #FFFFFF;
+}
+
+.accordion-button::after {
+  background-image: url(.././images/pet/down2.png) !important;
 }
 
 .dc-button {

@@ -84,71 +84,659 @@
     </ul>
   </div>
 
-  <!-- //banner -->
-<div class="bg-img pet-knowledge-banner vh-20 vh-sm-30 vh-md-40 vh-lg-50  vh-xl-60 vh-xxl-75"
-  style="background-image:url(./assets/images/pet/pet-Knowledge.png) ;"></div>
-
-<!-- 標題定位 -->
-<div class="position-relative  ">
+  <!-- 標題定位 -->
+<div class="position-relative   mb-6">
   <div class="tittle-border-dc d-none d-lg-block"></div>
   <div class="pet-assess">
     <div class="container justify-content-center  ">
-      <div class=" d-flex align-items-center   mt-6 mb-3 mb-md-0"
-        data-aos="fade-right" data-aos-duration="1000">
-        <img src="./assets/images/pet/pet-icon3.png"   width="40">
+      <div class=" d-flex align-items-center   mt-6 mb-3 mb-md-0" data-aos="fade-right" data-aos-duration="1000">
+        <img src="./assets/images/pet/pet-icon3.png" width="40">
         <h1 class="fw-bold mb-0  fs-2 ms-4 ms-md-6 ">毛孩知多少</h1>
       </div>
     </div>
   </div>
 </div>
 
+<!-- //banner -->
+<div class="bg-img pet-knowledge-banner vh-20 vh-sm-30 vh-md-40 vh-lg-50  vh-xl-60 vh-xxl-75 mb-6"
+  style="background-image:url(./assets/images/pet/pet-Knowledge.png) ;"></div>
+
+<div class="container mb-6">
+  <div class="tab-pane  fade show active" id="show" role="tabpanel" aria-labelledby="v-pills-home-tab">
+    <h2 class="fw-bold  mb-5">毛孩熱門知識</h2>
+    <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+      <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article.png" alt="" width="400">
+      <div class="box ">
+        <h4 class="fw-bold mb-3">毛孩罹癌不要怕，積極治療與照護降低復發率！</h4>
+        <ul class="fs-4 d-flex mb-5">
+          <li>
+            <p class="badge bg-secondary fw-normal ">寵物疾病</p>
+          </li>
+          <li>
+            <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+          </li>
+          <li>
+            <p class="badge bg-secondary  fw-normal  ms-3">老年照護</p>
+          </li>
+          <li>
+            <p class="badge bg-secondary  fw-normal ms-3">重症</p>
+          </li>
+        </ul>
+        <p class="mb-3">
+          當家中毛孩被宣告罹癌（腫瘤）時，相信那種心情比什麼都要難受；好在隨著科技的進步及醫療品質的提升，只要持續積極的治療，就算是癌症也能得到良好的控制喔！當發現毛孩身上出現異常腫塊時，請馬上紀錄「發現時間、腫塊位置、大小、團塊變大的速度」，並馬上將毛孩帶往動物醫院就診。獸醫師在進行基本的....
+        </p>
+        <div class="d-flex justify-content-center justify-content-md-start">
+          <p class="me-3">徐瑞陽獸醫師</p>
+          <p class="me-3">2022-05-30 </p>
+          <p>瀏覽 11.1k</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="d-lg-flex  align-items-center justify-content-center">
+      <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article1.png" alt=""
+        width="400">
+      <div class="box ">
+        <h4 class="fw-bold mb-3">你幫你家的毛小孩投保了寵物險了嗎？</h4>
+        <ul class="fs-4 d-flex mb-5">
+          <li>
+            <p class="badge bg-secondary fw-normal ">寵物保險</p>
+          </li>
+          <li>
+            <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+          </li>
+          <li>
+            <p class="badge bg-secondary  fw-normal  ms-3">醫療費</p>
+          </li>
+        </ul>
+        <p class="mb-3">
+          最近COVID-19疫情嚴峻，確診數量不斷往上。每個人身邊都有人居家隔離或確診，大家除了關心確診者的健康狀況外，往往還會多問：防疫險有投保嗎？只要選對寵物險，以目前的保險設計，保費其實都可以賺回來，更不用說可幫你省掉大部分的醫療費用....
+        </p>
+        <div class="d-flex justify-content-center justify-content-md-start">
+          <p class="me-3">王谷瑋獸醫師</p>
+          <p class="me-3">2022-07-07 </p>
+          <p>瀏覽 3.9k</p>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+  <hr class="mt-6">
+</div>
+
 
 <div class="container">
+  <div class="d-flex align-items-start mb-6  ">
+
+    <!-- //左邊導覽列 -->
+    <div class="nav flex-column nav-pills  pe-6 d-none d-md-flex col-md-4  col-lg-3" id="v-pills-tab" role="tablist"
+      aria-orientation="vertical">
+      <h2 class="fw-bold fs-5 text-center">文章分類</h2>
+      <div class="border p-3 border-secondary">
+        <!-- //手風琴list -->
+        <div class="accordion " id="accordionExample">
+          <!-- //手風琴 -1 -->
+          <div class="accordion-item  border-secondary">
+            <h2 class="accordion-header " id="headingOne">
+              <button class="accordion-button bg-secondary text-primary me-6" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                毛孩營養學
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="nav flex-column">
+                <button class="nav-link link-hover  rounded-0   text-secondary" id="v-pills-home-tab"
+                  data-bs-toggle="pill" data-bs-target="#test1" type="button" role="tab" aria-controls="v-pills-home"
+                  aria-selected="true">營養食品</button>
+                <button class="nav-link link-hover  rounded-0 text-secondary " id="v-pills-profile-tab"
+                  data-bs-toggle="pill" data-bs-target="#test2" type="button" role="tab" aria-controls="v-pills-profile"
+                  aria-selected="false">毛孩保養</button>
+                <button class="nav-link link-hover  rounded-0 text-secondary " id="v-pills-messages-tab"
+                  data-bs-toggle="pill" data-bs-target="#test3" type="button" role="tab"
+                  aria-controls="v-pills-messages" aria-selected="false">毛孩常見疾病</button>
+              </div>
+            </div>
+          </div>
+          <!-- //手風琴 -2 -->
+          <div class="accordion-item border-secondary ">
+            <h2 class="accordion-header " id="headingOne">
+              <button class="accordion-button  bg-secondary text-primary me-6" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapseOne">
+                毛孩行為學
+              </button>
+            </h2>
+            <div id="collapsetwo" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
+              <div class="nav flex-column">
+                <button class="nav-link link-hover  rounded-0 text-secondary" id="v-pills-home-tab"
+                  data-bs-toggle="pill" data-bs-target="#test4" type="button" role="tab" aria-controls="v-pills-home"
+                  aria-selected="true">毛孩行為</button>
+                <button class="nav-link link-hover  rounded-0  text-secondary " id="v-pills-profile-tab"
+                  data-bs-toggle="pill" data-bs-target="#test5" type="button" role="tab" aria-controls="v-pills-profile"
+                  aria-selected="false">毛孩冷知識</button>
+                <button class="nav-link link-hover  rounded-0 text-secondary " id="v-pills-messages-tab"
+                  data-bs-toggle="pill" data-bs-target="#test6" type="button" role="tab"
+                  aria-controls="v-pills-messages" aria-selected="false">毛孩想什麼</button>
+              </div>
+            </div>
+          </div>
+          <!-- //手風琴 -3 -->
+          <div class="accordion-item  border-secondary">
+            <h2 class="accordion-header " id="headingOne">
+              <button class="accordion-button bg-secondary text-primary me-6" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapseOne">
+                毛孩教育學
+              </button>
+            </h2>
+            <div id="collapsethree" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
+              <div class="nav flex-column">
+                <button class="nav-link link-hover rounded-0 text-secondary" id="v-pills-home-tab" data-bs-toggle="pill"
+                  data-bs-target="#test7" type="button" role="tab" aria-controls="v-pills-home"
+                  aria-selected="true">毛孩溝通</button>
+                <button class="nav-link link-hover  rounded-0  text-secondary " id="v-pills-profile-tab"
+                  data-bs-toggle="pill" data-bs-target="#test8" type="button" role="tab" aria-controls="v-pills-profile"
+                  aria-selected="false">毛孩教育</button>
+              </div>
+            </div>
+          </div>
 
 
-
-  <div class="d-flex align-items-start">
-    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
-      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
-      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
-      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+        </div>
+      </div>
     </div>
-    <div class="tab-content" id="v-pills-tabContent">
-      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+
+    <!-- //右邊內容 -->
+    <div class="tab-content col-md-8 col-lg-9 " id="v-pills-tabContent ">
+
+      <!-- //毛孩營養品 -->
+      <div class="tab-pane fade show active " id="test1" role="tabpanel" aria-labelledby="v-pills-home-tab">
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">潔牙骨可以這樣挑選：從成分及形狀來看</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">寵物心理</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">聲音恐懼</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">寵物行為</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              你家狗狗也是屬於不愛刷牙一族嗎？其實大部分的狗狗都很難接受有一根牙刷在牠們嘴裡嚕來嚕去，這時候「潔牙骨」就身負重責大任；雖然潔牙骨無法取代刷牙，但天天給狗狗一根潔牙骨，還是可以維護基本的口腔健康...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">吳乃聖</p>
+              <p class="me-3">2021-10-21 </p>
+              <p>瀏覽 4.5k</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">【犬貓行為學】認識狗狗的聲響恐懼</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">寵物心理</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">聲音恐懼</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">寵物行為</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              聲響敏感是行為門診中很常見的問題，根據發生比例（不分公母及品種）：約40~50%的狗狗，在1～11歲都有可能發生；而有78%的狗狗，會在1～5歲時忽然發生。聲響敏感的成因大多偏向基因遺傳所導致，有一部分原因可能是因為過...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">林瑋真獸醫師</p>
+              <p class="me-3">2021-03-20 </p>
+              <p>瀏覽 2.3k</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- //毛孩保養 -->
+      <div class="tab-pane fade" id="test2" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article4.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">用多元菌叢改善毛孩的腸道環境</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">毛孩醫療</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛孩腸胃</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">毛孩保養</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              有「腸胃問題」的毛孩數量，大概僅次於有「皮膚問題」的毛孩數量，不管是便秘、腹瀉、嘔吐、一直放臭屁…都與腸胃及消化系統息息相關；家有超過7歲的狗狗貓咪更要注意牠的腸道健康...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">吳乃聖</p>
+              <p class="me-3">2021-01-10 </p>
+              <p>瀏覽 5.6k</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">【犬貓行為學】認識狗狗的聲響恐懼</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">寵物心理</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">聲音恐懼</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">寵物行為</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              聲響敏感是行為門診中很常見的問題，根據發生比例（不分公母及品種）：約40~50%的狗狗，在1～11歲都有可能發生；而有78%的狗狗，會在1～5歲時忽然發生。聲響敏感的成因大多偏向基因遺傳所導致，有一部分原因可能是因為過...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">林瑋真獸醫師</p>
+              <p class="me-3">2021-03-20 </p>
+              <p>瀏覽 2.3k</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- //毛孩疾病 -->
+      <div class="tab-pane fade" id="test3" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article10.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">翻開皮毛一探究竟，有這些徵兆表示狗狗皮膚出問題啦！</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">過敏控制</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">皮膚病</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">寵物疾病</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              你家狗狗也是屬於不愛刷牙一族嗎？其實大部分的狗狗都很難接受有一根牙刷在牠們嘴裡嚕來嚕去，這時候「潔牙骨」就身負重責大任；雖然潔牙骨無法取代刷牙，但天天給狗狗一根潔牙骨，還是可以維護基本的口腔健康...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">吳乃聖</p>
+              <p class="me-3">2021-10-21 </p>
+              <p>瀏覽 4.5k</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">【犬貓行為學】認識狗狗的聲響恐懼</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">寵物心理</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">聲音恐懼</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">寵物行為</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              聲響敏感是行為門診中很常見的問題，根據發生比例（不分公母及品種）：約40~50%的狗狗，在1～11歲都有可能發生；而有78%的狗狗，會在1～5歲時忽然發生。聲響敏感的成因大多偏向基因遺傳所導致，有一部分原因可能是因為過...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">林瑋真獸醫師</p>
+              <p class="me-3">2021-03-20 </p>
+              <p>瀏覽 2.3k</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- //毛孩行為 -->
+      <div class="tab-pane fade" id="test4" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article9.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">【犬貓行為學】認識狗狗的聲響恐懼</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">寵物心理</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">聲音恐懼</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">寵物行為</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              聲響敏感是行為門診中很常見的問題，根據發生比例（不分公母及品種）：約40~50%的狗狗，在1～11歲都有可能發生；而有78%的狗狗，會在1～5歲時忽然發生。聲響敏感的成因大多偏向基因遺傳所導致，有一部分原因可能是因為過...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">林瑋真獸醫師</p>
+              <p class="me-3">2021-03-20 </p>
+              <p>瀏覽 2.3k</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article8.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">10大常見的貓咪行為誤解</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">寵物心理</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">寵物行為</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              隨著知識跟經驗增長，我逐漸瞭解這個迷死人、毛茸茸的小動物並不完全如我想像。例如以下10項就是我與貓咪飼主在溝通過程中常遇到的貓咪行為誤解，這裡跟大家稍作分享...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">林子軒獸醫師</p>
+              <p class="me-3">2021-07-09 </p>
+              <p>瀏覽 12.5k</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- //毛孩冷知識 -->
+      <div class="tab-pane fade" id="test5" role="tabpanel" aria-labelledby="v-pills-home-tab">
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article6.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">潔牙骨可以這樣挑選：從成分及形狀來看</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">寵物心理</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">聲音恐懼</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">寵物行為</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              你家狗狗也是屬於不愛刷牙一族嗎？其實大部分的狗狗都很難接受有一根牙刷在牠們嘴裡嚕來嚕去，這時候「潔牙骨」就身負重責大任；雖然潔牙骨無法取代刷牙，但天天給狗狗一根潔牙骨，還是可以維護基本的口腔健康...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">吳乃聖</p>
+              <p class="me-3">2021-10-21 </p>
+              <p>瀏覽 4.5k</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article11.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">讓貓喝水這件事，貓的飲水該擺在哪？</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">寵物心理</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">聲音恐懼</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">寵物行為</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              聲響敏感是行為門診中很常見的問題，根據發生比例（不分公母及品種）：約40~50%的狗狗，在1～11歲都有可能發生；而有78%的狗狗，會在1～5歲時忽然發生。聲響敏感的成因大多偏向基因遺傳所導致，有一部分原因可能是因為過...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">林子軒獸醫師</p>
+              <p class="me-3">2021-02-24 </p>
+              <p>瀏覽 8.5k</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- //毛孩想什麼-->
+      <div class="tab-pane fade" id="test6" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article5.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">我家貓咪最近會像狗狗一樣張嘴呼吸，是正常的嗎？</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">呼吸</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">寵物行為</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              最近常常看到貓咪一直在喘氣、偶爾還會像狗狗一樣張嘴呼吸…是因為天氣太熱的關係嗎？逼逼逼！當看到貓咪出現這些反應，一定要馬上帶牠到動物醫院做完整檢查，因為這很有可能是心臟病的前兆！...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">陳郁晴獸醫師</p>
+              <p class="me-3">2021-06-24 </p>
+              <p>瀏覽 20.3k</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article12.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">為什麼我的貓喜歡待在貓砂盆裡？</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">寵物心理</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">貓砂盆</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">寵物行為</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              為什麼我的貓咪平常喜歡待在貓砂盆？那裡不是上廁所的地方嗎？有時還會看到貓咪眼睛微微閉著，像是打瞌睡，看似很舒服享受的樣子...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">姚勝隆獸醫師</p>
+              <p class="me-3">2020-12-24 </p>
+              <p>瀏覽 3.5k</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- //毛孩溝通 -->
+      <div class="tab-pane fade" id="test7" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article7.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">沒有天生愛咬人的狗，只有後天會不會教的主人</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">寵物心理</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">寵物教育</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">寵物行為</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              總是有許多狗狗攻擊主人或是陌生人，而且更多的是攻擊小朋友的事件頻傳，但是到底狗狗咬人是天生的還是後天原因造成，就讓我們來一起了解原因吧...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">合作獸醫師</p>
+              <p class="me-3">2021-10-15 </p>
+              <p>瀏覽 5.6k</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- //毛孩教育 -->
+      <div class="tab-pane fade" id="test8" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article2.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">[幼犬篇]新手飼主正式上線，飲食重點大攻略</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">幼犬照顧</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">飼料處方</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">成長</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              剛出生的幼犬就像剛出生的嬰兒一樣可愛，隨便一個舉動就可以融化人心，也因此許多嚮往飼養狗狗的人都會想從幼犬開始養，不過幼犬對於營養的需求與成犬非常不同，不同體型的幼犬需要的營養也有些....
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">宋子揚獸醫師</p>
+              <p class="me-3">2021-12-29</p>
+              <p>瀏覽 4.2k</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="d-lg-flex align-items-center justify-content-center mb-lg-5 mb-6">
+          <img class="mx-auto mb-3 w-100 w-lg-50 me-5 mb-lg-0" src="./assets/images/pet/pet-article3.png" alt=""
+            width="400">
+          <div class="box ">
+            <h4 class="fw-bold mb-3">[幼貓篇]新手飼主正式上線，飲食重點大攻略</h4>
+            <ul class="fs-4 d-flex mb-5">
+              <li>
+                <p class="badge bg-secondary fw-normal ">幼貓照顧</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">毛小孩</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal  ms-3">飼料處方</p>
+              </li>
+              <li>
+                <p class="badge bg-secondary  fw-normal ms-3">營養配方</p>
+              </li>
+            </ul>
+            <p class="mb-3">
+              相信每位幼貓爸媽對於「如何餵幼貓」這件事一定是既期待又擔心手忙腳亂，該給幼貓吃什麼？多久要餵一次？一次要餵多少？別怕～這次我們請獸醫師針對「一歲以下的幼貓該怎麼吃」整理出精華內容，透過了解幼貓在各階段的飲食重點...
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <p class="me-3">陳郁晴獸醫師</p>
+              <p class="me-3">2021-11-05</p>
+              <p>瀏覽 8.1k</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
     </div>
+
+  </div>
+  <div class="d-flex justify-content-center ">
+    <button class=" btn btn-light border border-secondary  ">查看更多文章</button>
   </div>
 
+</div>
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- //獸醫專欄 -->
-  <div class="d-flex align-items-center">
+<!-- //獸醫專欄 -->
+<div class="container ">
+  <div class="d-flex align-items-center  mb-6 ">
     <img src="./assets/images/pet/pet-icon4.png" alt="" width="40">
     <h2 class="ms-4 ms-md-6 fw-bold">獸醫專欄</h2>
   </div>
