@@ -14238,11 +14238,6 @@ nav .nav-hover:hover {
   }
 }
 
-.img-overhidden {
-  width: 300px;
-  height: 300px;
-}
-
 .hospital-list-hover::before {
   content: "";
   position: absolute;
@@ -14326,6 +14321,9 @@ nav .nav-hover:hover {
 @media (min-width: 992px) {
   .pet-bg {
     background-image: url(.././images/pet/pet-bg.jpg) !important;
+  }
+  .pet-medical-shop {
+    background-image: url(.././images/pet/pet-shop.png) !important;
   }
   .Swiper-video .iframe {
     width: 1000px !important;
