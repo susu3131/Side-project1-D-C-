@@ -13808,14 +13808,18 @@ p {
   z-index: 1000;
 }
 
+.loader-hide {
+  display: none;
+}
+
 .animation-move {
-  -webkit-animation: x-move 5s infinite ease-in;
-          animation: x-move 5s infinite ease-in;
+  -webkit-animation: x-move 6s infinite ease-in;
+          animation: x-move 6s infinite ease-in;
 }
 
 .animation-roll {
-  -webkit-animation: roll 2s infinite ease-in;
-          animation: roll 2s infinite ease-in;
+  -webkit-animation: roll 3s infinite ease-in;
+          animation: roll 3s infinite ease-in;
 }
 
 @-webkit-keyframes x-move {
