@@ -8077,6 +8077,10 @@ fieldset:disabled .btn {
   max-height: 100% !important;
 }
 
+.vh-5 {
+  height: 5vh !important;
+}
+
 .vh-20 {
   height: 20vh !important;
 }
@@ -9432,6 +9436,9 @@ fieldset:disabled .btn {
   .h-sm-auto {
     height: auto !important;
   }
+  .vh-sm-5 {
+    height: 5vh !important;
+  }
   .vh-sm-20 {
     height: 20vh !important;
   }
@@ -10253,6 +10260,9 @@ fieldset:disabled .btn {
   }
   .h-md-auto {
     height: auto !important;
+  }
+  .vh-md-5 {
+    height: 5vh !important;
   }
   .vh-md-20 {
     height: 20vh !important;
@@ -11076,6 +11086,9 @@ fieldset:disabled .btn {
   .h-lg-auto {
     height: auto !important;
   }
+  .vh-lg-5 {
+    height: 5vh !important;
+  }
   .vh-lg-20 {
     height: 20vh !important;
   }
@@ -11898,6 +11911,9 @@ fieldset:disabled .btn {
   .h-xl-auto {
     height: auto !important;
   }
+  .vh-xl-5 {
+    height: 5vh !important;
+  }
   .vh-xl-20 {
     height: 20vh !important;
   }
@@ -12719,6 +12735,9 @@ fieldset:disabled .btn {
   }
   .h-xxl-auto {
     height: auto !important;
+  }
+  .vh-xxl-5 {
+    height: 5vh !important;
   }
   .vh-xxl-20 {
     height: 20vh !important;
@@ -13646,9 +13665,9 @@ p {
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-transition-duration: 2s;
-       -o-transition-duration: 2s;
-          transition-duration: 2s;
+  -webkit-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
 }
 
 .bg-img {
@@ -14158,7 +14177,7 @@ nav .nav-hover:hover {
     width: 108px;
   }
   .index-about .index-about-text {
-    padding: 150px 0;
+    padding: 130px 0;
   }
   .index-go .index-go-button {
     width: 300px;
