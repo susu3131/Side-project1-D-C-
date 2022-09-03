@@ -5,7 +5,7 @@ engine: ejs
 current: index
 ---
 <!-- pet-medical-tittle -->
-<div class="pet-24hr bg-img position-relative mb-6">
+<div class="pet-24hr bg-img position-relative mb-6 overflow-hidden">
   <!-- 醫院內頁連結 -->
   <div class="position-sm-absolute top-30 start-0 w-100" data-aos="fade-right" data-aos-duration="1500"
     data-aos-delay="500">
@@ -32,21 +32,53 @@ current: index
       </div>
     </div>
   </div>
-  <img class="ms-lg-auto  " src="./assets/images/pet/pet-shop.png" alt="" width="1500" height="500">
+  <div class="bg-img ms-lg-auto pet-medical-shop w-100 w-lg-90 vh-50" style=" background-image:url(./assets/images/pet/pet-shop-sm.png)" data-aos="fade-left" data-aos-duration="1500"></div>
+
 </div>
 
-<div class="container">
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+<div class="container pt-5 ">
+  <ul class="d-md-flex flex-wrap justify-content-center text-center">
+    <li class="col-md-6 col-lg-3 mb-6 pe-md-3  ps-lg-2 pe-lg-2">
+      <h3 class="fw-bold fs-5 mb-0  "  data-aos="fade-up" data-aos-duration="1500">【毛孩時代】化毛專科益生菌<span class="d-none d-sm-inline d-lg-block">(30包/盒)</span></h3>
+      <img class=" mb-3 mx-auto" src="./assets/images/pet/shop-img2 (2).png" alt="" data-aos="fade-up" data-aos-duration="1500">
+      <div class="d-none d-md-flex flex-wrap justify-content-around" data-aos="fade-up" data-aos-duration="1500">
+        <p class=" border border-secondary rounded p-2 ps-3 pe-3">毛孩保健</p>
+        <p class="border border-secondary rounded p-2 ps-3 pe-3">毛孩腸胃</p>
+        <p class="border border-secondary rounded p-2 ps-3 pe-3 mt-lg-2 mt-xxl-0">毛孩皮膚</p>
+      </div>
+    </li>
+    <li class="col-md-6 col-lg-3 mb-6 ps-md-3 ps-lg-2 pe-lg-2">
+      <h3 class="fw-bold fs-5 mb-0" data-aos="fade-up" data-aos-duration="1500">【毛孩時代】皮膚專科益生菌<span class="d-none d-sm-inline d-lg-block">(30包/盒)</span></h3>
+      <img class=" mb-3 mx-auto" src="./assets/images/pet/shop-img2 (1).png" alt="" data-aos="fade-up" data-aos-duration="1500">
+      <div class="d-none d-md-flex flex-wrap justify-content-around" data-aos="fade-up" data-aos-duration="1500">
+        <p class=" border border-secondary rounded p-2 ps-3 pe-3">毛孩保健</p>
+        <p class="border border-secondary rounded p-2 ps-3 pe-3">毛孩腸胃</p>
+        <p class="border border-secondary rounded p-2 ps-3 pe-3 mt-lg-2 mt-xxl-0">毛孩皮膚</p>
+      </div>
+    </li>
+    <li class="col-md-6 col-lg-3 mb-6 pe-md-3  ps-lg-2 pe-lg-2">
+      <h3 class="fw-bold fs-5 mb-0" data-aos="fade-up" data-aos-duration="1500">【毛孩時代】8合一游離性葉黃素<span class="d-none d-sm-inline d-lg-block">(30包/盒)</span></h3>
+      <img class=" mb-3 mx-auto" src="./assets/images/pet/shop-img2 (4).png" alt="" data-aos="fade-up" data-aos-duration="1500">
+      <div class="d-none d-md-flex flex-wrap justify-content-center" data-aos="fade-up" data-aos-duration="1500">
+        <p class=" border border-secondary rounded p-2 ps-3 pe-3">毛孩保健</p>
+        <p class="border border-secondary rounded p-2 ps-3 pe-3 ms-md-3">毛孩護眼</p>
+      </div>
+    </li>
+    <li class="col-md-6 col-lg-3 mb-6 ps-md-3  ps-lg-2 pe-lg-2" >
+      <h3 class="fw-bold fs-5 mb-0" data-aos="fade-up" data-aos-duration="1500">【毛孩時代】關節強效保健粉<span class="d-none d-sm-inline d-lg-block">(30包/盒)</span></h3>
+      <img class=" mb-3 mx-auto" src="./assets/images/pet/shop-img2 (3).png" alt="" data-aos="fade-up" data-aos-duration="1500">
+      <div class="d-none d-md-flex flex-wrap justify-content-around" data-aos="fade-up" data-aos-duration="1500">
+        <p class=" border border-secondary rounded p-2 ps-3 pe-3">毛孩保健</p>
+        <p class="border border-secondary rounded p-2 ps-3 pe-3">毛孩關節</p>
+        <p class="border border-secondary rounded p-2 ps-3 pe-3 mt-lg-2 mt-xxl-0">老年保養</p>
+      </div>
+    </li>
   </ul>
 
 </div>
 
-<!-- 贊助廠商 標題定位 -->
-<div class="position-relative mb-6 ">
+<!--贊助廠商 標題定位 -->
+<div class="position-relative mb-6  overflow-hidden">
   <div class="tittle-border-dc d-none d-lg-block"></div>
   <div class="pet-assess">
     <div class="container justify-content-center  ">
@@ -58,51 +90,53 @@ current: index
     </div>
   </div>
 </div>
-<div class="container">
+
+
+<div class="container overflow-hidden">
   <ul class="d-md-flex flex-wrap">
-    <li class="col-md-6 col-lg-3 mb-6">
+    <li class="col-md-6  mb-6 pe-md-3 mb-md-5" data-aos="fade-right" data-aos-duration="1500">
       <img class="mx-auto" src="./assets/images/pet/shop-img3 (4).png" alt="">
     </li>
-    <li class="col-md-6 col-lg-3 mb-6">
+    <li class="col-md-6  ps-md-3  mb-6 mb-md-5" data-aos="fade-left" data-aos-duration="1500">
       <img class="mx-auto" src="./assets/images/pet/shop-img3 (3).png" alt="">
     </li>
-    <li class="col-md-6 col-lg-3 mb-6" >
+    <li class="col-md-12 col-lg-5   mb-6"  data-aos="fade-right" data-aos-duration="1500">
       <img class="mx-auto" src="./assets/images/pet/shop-img3 (2).png" alt="">
     </li>
-    <li class="col-md-6 col-lg-3 mb-6">
+    <li class="col-md-12 col-lg-7 ps-md-5  mb-6" data-aos="fade-left" data-aos-duration="1500">
       <img class="mx-auto" src="./assets/images/pet/shop-img3 (1).png" alt="">
     </li>
   </ul>
 </div>
 
 <!-- 其他商品 標題定位 -->
-<div class="position-relative mb-6 ">
+<div class="position-relative mb-6  ">
   <div class="tittle-border-dc d-none d-lg-block"></div>
   <div class="pet-assess">
     <div class="container justify-content-center  ">
       <div class=" d-flex align-items-center justify-content-center justify-content-md-start  mt-6 mb-6 mb-3 mb-md-0"
         data-aos="fade-right" data-aos-duration="1000">
         <img src="./assets/images/pet/pet-icon5.png" alt="" width="40">
-        <h1 class="fw-bold mb-0  fs-2 ms-6 ">其它商品</h1>
+        <h2 class="fw-bold mb-0  fs-2 ms-6 ">其它商品</h2>
       </div>
     </div>
   </div>
 </div>
-<div class="container">
+<div class="container pb-60">
   <ul class="d-md-flex flex-wrap">
-    <li class="col-md-6 col-lg-3 mb-3">
+    <li class="col-md-6 col-lg-3 mb-3" data-aos="fade-up" data-aos-duration="1500">
       <img class="mx-auto" src="./assets/images/pet/shop-img (1).png" alt="">
     </li>
-    <li class="col-md-6 col-lg-3 mb-3">
+    <li class="col-md-6 col-lg-3 mb-3" data-aos="fade-up" data-aos-duration="1500">
       <img class="mx-auto" src="./assets/images/pet/shop-img (2).png" alt="">
     </li>
-    <li class="col-md-6 col-lg-3 mb-3" >
+    <li class="col-md-6 col-lg-3 mb-3" data-aos="fade-up" data-aos-duration="1500">
       <img class="mx-auto" src="./assets/images/pet/shop-img (3).png" alt="">
     </li>
-    <li class="col-md-6 col-lg-3 mb-3">
+    <li class="col-md-6 col-lg-3 mb-3" data-aos="fade-up" data-aos-duration="1500">
       <img class="mx-auto" src="./assets/images/pet/shop-img (4).png" alt="">
     </li>
-    <li class="col-md-6 col-lg-3 mb-3">
+    <li class="col-md-6 col-lg-3 mb-3" data-aos="fade-up" data-aos-duration="1500">
       <img class="mx-auto" src="./assets/images/pet/shop-img (5).png" alt="">
     </li>
   </ul>
