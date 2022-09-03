@@ -9,6 +9,10 @@ $(document).ready(function () {
     event.preventDefault();
     $(".index-choose").toggle();
   });
+  $(".index-close").click(function (e) {
+    event.preventDefault();
+    $(".index-choose").toggle();
+  });
 }); //首頁輪播
 
 var swiper = new Swiper(".mySwiper", {

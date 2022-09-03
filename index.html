@@ -17,9 +17,12 @@
   <!-- //讀取畫面 -->
   <div class="loading" id="preloader">
     <div class="load d-flex flex-column  flex-md-row justify-content-center align-items-center">
-      <divspan class="status ms-6" id="test"><img src="./assets/images/layout/loader.gif" width="200" /></divspan>
+      <divspan class="status " id="test"><img src="./assets/images/layout/loader.gif" width="200" /></divspan>
       <div class="fs-1 d-flex fw-bold ">
-        <p class="fs-2 fw-bold ms-3">Loading ... </p>
+        <p class="fs-2 fw-bold">Loading ... </p>
+      </div>
+      <div class="w-100 animation-move">
+        <img class="mt-6 animation-roll" src="./assets/images/layout/logo1.png" alt="" width="50">
       </div>
     </div>
   </div>
@@ -368,9 +371,12 @@
 
   </ul>
 
-  <!-- //D&C Choose toggle -->
+  <!-- //D&C Choose toggle --> 
   <div class="index-choose  pt-60 pb-60  w-100 position-absolute choose-hide">
-    <h3 class="text-primary text-center fs-1 mb-5 d-md-block  mb-md-0 ">你想養?</h3>
+    <div class="d-flex justify-content-between    mb-5" >
+      <h3 class="text-primary text-center fs-1  d-md-block  mb-md-0 mx-auto ps-6">你想養?</h3>
+      <button type="button" class="btn-close btn-close-white index-close me-md-6 me-4" aria-label="Close" ></button>
+    </div>
     <div class=" container d-md-flex  justify-content-center ">
       <!-- //dog -->
       <a href="dog.html"><img class="radius-40 mx-auto mb-5 opacity-70 img-hover me-md-6"
