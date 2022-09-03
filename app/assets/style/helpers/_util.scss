@@ -1,122 +1,134 @@
 //margin
-.mt-100{
+.mt-100 {
   margin-top: 100px;
 }
-.mb-100{
+
+.mb-100 {
   margin-bottom: 100px;
 }
 
-.mt-60{
+.mt-60 {
   margin-top: 60px;
 }
-.mb-60{
+
+.mb-60 {
   margin-bottom: 60px;
 }
 
-.mt-80{
+.mt-80 {
   margin-top: 80px;
 }
-.mb-80{
+
+.mb-80 {
   margin-bottom: 80px;
 }
 
-.ms-150{
+.ms-150 {
   margin-left: 150px;
 }
 
 
 //padding
-.p-100{
+.p-100 {
   padding: 100px;
 }
-.pt-80{
+
+.pt-80 {
   padding-top: 80px;
 }
-.pb-80{
+
+.pb-80 {
   padding-bottom: 80px;
 }
 
-.pt-60{
+.pt-60 {
   padding-top: 60px;
 }
-.pb-60{
+
+.pb-60 {
   padding-bottom: 60px;
 }
 
 //font
-.text-justify{
+.text-justify {
   text-align: justify
 }
 
 
 
 //radius
-.radius-15{
+.radius-15 {
   border-radius: 15px;
 }
-.radius-40{
+
+.radius-40 {
   border-radius: 40px;
 }
 
-.radius-50{
+.radius-50 {
   border-radius: 50px;
 }
-.radius-c{
+
+.radius-c {
   border-radius: 50%;
 }
 
 //hover
-.link-hover:hover{
+.link-hover:hover {
   background: $secondary;
   color: white;
 }
 
-.white-hover:hover{
+.white-hover:hover {
   color: white;
-  
-}
-.black-hover:hover{
-  color: $secondary;
-  
+
 }
 
-.img-hover:hover{
-  opacity:1 !important;
+.black-hover:hover {
+  color: $secondary;
+
+}
+
+.img-hover:hover {
+  opacity: 1 !important;
   transition-duration: 0.4s;
 }
 
-.img-big:hover{
+.img-big:hover {
   transform: scale(1.2);
   transition-duration: 2s;
 
 }
 
 //bg-img
-.bg-img{
+.bg-img {
   background-size: cover;
   background-position: center center;
 
 }
-.bg-img-bottom{
+
+.bg-img-bottom {
   background-size: cover;
-  background-position:center bottom;
+  background-position: center bottom;
 
 }
 
 //bg-black-op
-.bg-black-op{
+.bg-black-op {
   background: rgba(0, 0, 0, 0.7)
 }
 
 
 //bg-css
 
-.animation{
-  animation: DC 3s; 
+.animation {
+  animation: DC 3s;
 }
-  
-  
-  //z-index
-.z-index-300{
+
+
+
+//z-index
+.z-index-300 {
   z-index: 300;
 }
+

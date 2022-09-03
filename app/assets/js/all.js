@@ -10,6 +10,12 @@ $(document).ready(function () {
 
   });
 
+  $(".index-close").click(function (e) {
+    event.preventDefault();
+    $(".index-choose").toggle();
+
+  });
+
 })
 
 

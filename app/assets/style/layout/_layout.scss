@@ -81,3 +81,52 @@
 .loader-hide{
   display: none;
 }
+
+
+
+.animation-move {
+  animation: x-move 6s infinite ease-in;
+}
+.animation-roll {
+  animation: roll 5s infinite ease-in;
+}
+
+@keyframes x-move {
+  0% {
+    transform: translateX(-10%);
+
+  }
+
+  100% {
+    transform: translateX(110%);
+
+
+
+  }
+}
+
+@keyframes roll {
+  0% {
+
+    transform: rotate(0deg);
+  }
+  25% {
+
+    transform: rotate(360deg);
+  }
+
+  50% {
+
+    transform: rotate(720deg);
+  }
+
+  75% {
+
+    transform: rotate(1080deg);
+  }
+
+  100% {
+
+    transform: rotate(1440deg);
+  }
+}
