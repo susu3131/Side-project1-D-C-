@@ -13808,6 +13808,10 @@ p {
   z-index: 1000;
 }
 
+.loader-hide {
+  display: none;
+}
+
 .animation-move {
   -webkit-animation: x-move 6s infinite ease-in;
           animation: x-move 6s infinite ease-in;
