@@ -13808,10 +13808,6 @@ p {
   z-index: 1000;
 }
 
-.loader-hide {
-  display: none;
-}
-
 .animation-move {
   -webkit-animation: x-move 6s infinite ease-in;
           animation: x-move 6s infinite ease-in;
@@ -13887,6 +13883,17 @@ p {
   100% {
     -webkit-transform: rotate(1440deg);
             transform: rotate(1440deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .animation-move {
+    -webkit-animation: x-move 12s infinite ease-in;
+            animation: x-move 12s infinite ease-in;
+  }
+  .animation-roll {
+    -webkit-animation: roll 10s infinite ease-in;
+            animation: roll 10s infinite ease-in;
   }
 }
 
