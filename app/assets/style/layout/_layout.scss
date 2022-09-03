@@ -78,9 +78,9 @@
   z-index: 1000;
 }
 
-.loader-hide{
-  display: none;
-}
+// .loader-hide{
+//   display: none;
+// }
 
 
 
@@ -99,8 +99,6 @@
 
   100% {
     transform: translateX(110%);
-
-
 
   }
 }
@@ -129,4 +127,15 @@
 
     transform: rotate(1440deg);
   }
+}
+
+@include ipad{
+  
+.animation-move {
+  animation: x-move 12s infinite ease-in;
+}
+.animation-roll {
+  animation: roll 10s infinite ease-in;
+}
+
 }
