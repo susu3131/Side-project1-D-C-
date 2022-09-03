@@ -13832,13 +13832,13 @@ p {
 }
 
 .animation-move {
-  -webkit-animation: x-move 6s infinite ease-in;
-          animation: x-move 6s infinite ease-in;
+  -webkit-animation: x-move 3s infinite ease-in;
+          animation: x-move 3s infinite ease-in;
 }
 
 .animation-roll {
-  -webkit-animation: roll 3s infinite ease-in;
-          animation: roll 3s infinite ease-in;
+  -webkit-animation: roll 1s infinite ease-in;
+          animation: roll 1s infinite ease-in;
 }
 
 @-webkit-keyframes x-move {
