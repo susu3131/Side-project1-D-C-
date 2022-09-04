@@ -28,6 +28,35 @@
       </div>
     </div>
   </div>
+  <!-- index-choose -->
+  <div class="choose-hide index-choose">
+    <div class="index-choose  d-flex justify-content-center align-items-center">
+      <div class="index-bg  border border-3 w-80 w-md-90 vh-70 w-lg-75  w-xl-60 w-xxl-50 vh-md-50  pt-60 pb-60   radius-50 ">
+        <div class="d-flex justify-content-between    mb-5">
+          <h3 class="text-primary text-center fs-1  d-md-block  mb-md-0 mx-auto ps-6">你想養?</h3>
+          <button type="button" class="btn-close btn-close-white index-close me-md-6 me-4" aria-label="Close"></button>
+        </div>
+        <div class=" container d-md-flex  justify-content-center ">
+          <!-- //dog -->
+          <a href="dog.html"><img class="radius-40 mx-auto mb-5 opacity-70 img-hover me-md-6"
+              src="./assets/images/index/dog-1.jpg" alt="dog.jpg" width="200" height="200">
+          </a>
+          <!-- font -->
+          <div class="chooose-content d-md-flex d-none text-primary align-items-center ">
+            <p>D</p>
+            <p class="chooose-font ms-5 me-5">&</p>
+            <p>C</p>
+          </div>
+          <!-- //cat -->
+          <a href="cat.html">
+            <img class="radius-40 mx-auto opacity-70 img-hover ms-md-6" src="./assets/images/index/cat-1.jpg"
+              alt="cat.jpg" width="200" height="200">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
 
   <!-- //header & nav -->
@@ -66,46 +95,53 @@
 
   <%- contents %>
 
-  <!-- //footer -->
-  <footer class="bg-secondary bg-footer pt-4 pb-4 ">
-    <div class="container">
-      <div class=" justify-content-md-between align-items-center row justify-content-center ">
+    <!-- //footer -->
+    <footer class="bg-secondary bg-footer pt-4 pb-4 ">
+      <div class="container">
+        <div class=" justify-content-md-between align-items-center row justify-content-center ">
 
-        <div class="footer-text text-light2 col-9 d-none  d-md-flex align-items-center ">
-          <img class=" footer-img ms-6 me-6 ms-md-3 me-md-3 ms-lg-5 me-lg-5" src="./assets/images/layout/footer-logogray.png" alt="logo 2.png">
-          <div class="footer-text-box ps-6">
-            <h5 class="fs-4 mb-3 fw-bold">D&C汪喵你我知 </h5>
-            <h5 class="mb-3">CONTANT US</h5>
-            <p >Phone : 0988-240-468</p>
-            <p >E-mail : anny81327@gmail.com</p>
-            <p >Address: No. 177, Sec. 2, Beixin Rd., Xindian Dist., New Taipei City 231,Taiwan (R.O.C.)</p>
-            
+          <div class="footer-text text-light2 col-9 d-none  d-md-flex align-items-center ">
+            <img class=" footer-img ms-6 me-6 ms-md-3 me-md-3 ms-lg-5 me-lg-5"
+              src="./assets/images/layout/footer-logogray.png" alt="logo 2.png">
+            <div class="footer-text-box ps-6">
+              <h5 class="fs-4 mb-3 fw-bold">D&C汪喵你我知 </h5>
+              <h5 class="mb-3">CONTANT US</h5>
+              <p>Phone : 0988-240-468</p>
+              <p>E-mail : anny81327@gmail.com</p>
+              <p>Address: No. 177, Sec. 2, Beixin Rd., Xindian Dist., New Taipei City 231,Taiwan (R.O.C.)</p>
+
+            </div>
           </div>
+          <ul
+            class="footer-icon flex  d-flex flex-wrap col-9 justify-content-center col-md-3 me-lg-6 align-items-center">
+            <li class="w-100 ">
+              <a href="#">
+                <img class=" mx-auto mb-2 mb-lg-3  img-big " src="./assets/images/layout/qrcode.png" alt="qrcode.png"
+                  width="100">
+              </a>
+            </li>
+            <li class="img-big pe-4 pe-lg-5"><a href="#"><img src="./assets/images/layout/facebook.png"
+                  alt="facebook.png" width="30"></a></li>
+            <li class="img-big pe-4 pe-lg-5"><a href="#"><img src="./assets/images/layout/instagram.png"
+                  alt="instagram.png" width="30"></a></li>
+            <li class="img-big"><a href="#"><img src="./assets/images/layout/email.png" alt="email.png" width="30"
+                  height="35"></a></li>
+          </ul>
         </div>
-        <ul class="footer-icon flex  d-flex flex-wrap col-9 justify-content-center col-md-3 me-lg-6 align-items-center">
-          <li class="w-100 ">
-            <a  href="#">
-              <img class=" mx-auto mb-2 mb-lg-3  img-big " src="./assets/images/layout/qrcode.png" alt="qrcode.png" width="100">
-            </a>
-          </li>
-          <li class="img-big pe-4 pe-lg-5"><a href="#" ><img  src="./assets/images/layout/facebook.png" alt="facebook.png" width="30"></a></li>
-          <li class="img-big pe-4 pe-lg-5"><a href="#" ><img src="./assets/images/layout/instagram.png" alt="instagram.png" width="30"></a></li>
-          <li class="img-big"><a href="#" ><img src="./assets/images/layout/email.png" alt="email.png" width="30" height="35"></a></li>
-        </ul>
+        <p class="mt-3 fs-10 text-primary text-center text-md-end me-lg-5  opacity-80 mt-lg-5">此網站僅做為前端side project
+          作品練習，無營利用途</p>
       </div>
-      <p class="mt-3 fs-10 text-primary text-center text-md-end me-lg-5  opacity-80 mt-lg-5">此網站僅做為前端side project 作品練習，無營利用途</p>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- //swiper -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <!-- //aos視差滾動 -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
+    <!-- //swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- //aos視差滾動 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
 </body>
 
 </html>
