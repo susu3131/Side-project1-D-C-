@@ -13665,6 +13665,11 @@ p {
   color: white !important;
 }
 
+.a-hover:hover {
+  color: #f57272 !important;
+  font-weight: bold;
+}
+
 .white-hover:hover {
   color: white;
 }
