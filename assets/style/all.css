@@ -8109,6 +8109,10 @@ fieldset:disabled .btn {
   height: 60vh !important;
 }
 
+.vh-65 {
+  height: 65vh !important;
+}
+
 .vh-70 {
   height: 70vh !important;
 }
@@ -9460,6 +9464,9 @@ fieldset:disabled .btn {
   .vh-sm-60 {
     height: 60vh !important;
   }
+  .vh-sm-65 {
+    height: 65vh !important;
+  }
   .vh-sm-70 {
     height: 70vh !important;
   }
@@ -10284,6 +10291,9 @@ fieldset:disabled .btn {
   }
   .vh-md-60 {
     height: 60vh !important;
+  }
+  .vh-md-65 {
+    height: 65vh !important;
   }
   .vh-md-70 {
     height: 70vh !important;
@@ -11110,6 +11120,9 @@ fieldset:disabled .btn {
   .vh-lg-60 {
     height: 60vh !important;
   }
+  .vh-lg-65 {
+    height: 65vh !important;
+  }
   .vh-lg-70 {
     height: 70vh !important;
   }
@@ -11935,6 +11948,9 @@ fieldset:disabled .btn {
   .vh-xl-60 {
     height: 60vh !important;
   }
+  .vh-xl-65 {
+    height: 65vh !important;
+  }
   .vh-xl-70 {
     height: 70vh !important;
   }
@@ -12759,6 +12775,9 @@ fieldset:disabled .btn {
   }
   .vh-xxl-60 {
     height: 60vh !important;
+  }
+  .vh-xxl-65 {
+    height: 65vh !important;
   }
   .vh-xxl-70 {
     height: 70vh !important;
