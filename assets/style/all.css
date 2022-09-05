@@ -14510,6 +14510,10 @@ nav .nav-hover:hover {
   }
 }
 
+.dont-cry {
+  height: 400px;
+}
+
 .hospital-list-hover::before {
   content: "";
   position: absolute;
