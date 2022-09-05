@@ -8041,6 +8041,10 @@ fieldset:disabled .btn {
   width: 30% !important;
 }
 
+.w-35 {
+  width: 35% !important;
+}
+
 .w-40 {
   width: 40% !important;
 }
@@ -9452,6 +9456,9 @@ fieldset:disabled .btn {
   .w-sm-30 {
     width: 30% !important;
   }
+  .w-sm-35 {
+    width: 35% !important;
+  }
   .w-sm-40 {
     width: 40% !important;
   }
@@ -10294,6 +10301,9 @@ fieldset:disabled .btn {
   }
   .w-md-30 {
     width: 30% !important;
+  }
+  .w-md-35 {
+    width: 35% !important;
   }
   .w-md-40 {
     width: 40% !important;
@@ -11138,6 +11148,9 @@ fieldset:disabled .btn {
   .w-lg-30 {
     width: 30% !important;
   }
+  .w-lg-35 {
+    width: 35% !important;
+  }
   .w-lg-40 {
     width: 40% !important;
   }
@@ -11981,6 +11994,9 @@ fieldset:disabled .btn {
   .w-xl-30 {
     width: 30% !important;
   }
+  .w-xl-35 {
+    width: 35% !important;
+  }
   .w-xl-40 {
     width: 40% !important;
   }
@@ -12823,6 +12839,9 @@ fieldset:disabled .btn {
   }
   .w-xxl-30 {
     width: 30% !important;
+  }
+  .w-xxl-35 {
+    width: 35% !important;
   }
   .w-xxl-40 {
     width: 40% !important;
