@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(https://code.jquery.com/jquery-3.6.0.min.js);
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
@@ -14512,6 +14513,43 @@ nav .nav-hover:hover {
 
 .dont-cry {
   height: 400px;
+}
+
+.store::before {
+  content: "營業時間: \A週一至週五  12:00-21:00 \A週三公休 \A週六-週日 11:00-21:00\A\A 700 台南市忠義路二段83號";
+  font-size: 14px;
+  padding: 16px;
+  white-space: pre-line;
+  position: absolute;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  bottom: 0%;
+  left: 0%;
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.store1::before {
+  content: "營業時間: \A週一至週五  12:00-21:00 \A週三公休 \A週六-週日 11:00-21:00\A\A 408 台中市南屯區干城街214巷1號";
+}
+
+.store2::before {
+  content: "營業時間: \A週一至週日  12:00-21:00 \A\A 100 台北市中正區林森北路9巷13號";
+}
+
+.store3::before {
+  content: "嗨 ! 我是斑斑，請多多支持我們";
+}
+
+.store:hover::before {
+  -webkit-transition-duration: 1.5s;
+       -o-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
 }
 
 .hospital-list-hover::before {
