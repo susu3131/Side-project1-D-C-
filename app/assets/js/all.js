@@ -109,3 +109,16 @@ var swiper = new Swiper(".Swiper-video", {
 });
 
 
+
+
+var swiper = new Swiper(".Swiper-travel", {
+  grid: {
+    rows: 2,
+  },
+  loop:true,
+  spaceBetween: 0,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
