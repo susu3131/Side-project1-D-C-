@@ -14113,13 +14113,6 @@ nav .nav-hover:hover {
   width: 180px;
 }
 
-@media (min-width: 768px) {
-  .bg-footer {
-    padding-top: 60px !important;
-    padding-bottom: 60px !important;
-  }
-}
-
 .index-banner .index-banner-bg {
   background-image: url(.././images/index/banner-sm.jpg);
   background-size: cover;
