@@ -93,4 +93,15 @@ var swiper = new Swiper(".Swiper-video", {
     clickable: true
   }
 });
+var swiper = new Swiper(".Swiper-travel", {
+  grid: {
+    rows: 2
+  },
+  loop: true,
+  spaceBetween: 0,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  }
+});
 //# sourceMappingURL=all.js.map

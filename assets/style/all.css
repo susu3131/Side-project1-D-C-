@@ -13922,6 +13922,30 @@ p {
   background: #FFFFFF;
 }
 
+.travel {
+  position: relative;
+  height: 800px;
+}
+
+.travel .swiper-slide-active {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  opacity: 1 !important;
+}
+
+.travel .swiper-slide {
+  height: calc((100% - 30px) / 2) !important;
+  opacity: 1;
+}
+
+.travel .swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .accordion-button::after {
   background-image: url(.././images/pet/down2.png) !important;
 }
