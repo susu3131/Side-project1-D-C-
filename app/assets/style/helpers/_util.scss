@@ -85,6 +85,13 @@
   
 }
 
+.border-hover:hover{
+  outline: 5px solid  $secondary !important;
+  padding: 8px;
+  transition-duration: 0.5s !important;
+    
+  }
+
 
 .white-hover:hover {
   color: white;

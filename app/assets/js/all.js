@@ -112,14 +112,35 @@ var swiper = new Swiper(".Swiper-video", {
 
 
 var swiper = new Swiper(".Swiper-travel", {
-  slidesPerView: 3,
+  slidesPerView: 1,
   grid: {
     rows: 2,
   },
-  loop:true,
-  spaceBetween: 0,
-  navigation: {
-    nextEl: ".swiper-next",
-    prevEl: ".swiper-prev",
+  breakpoints: {
+
+    767: { //当屏幕宽度大于等于375
+      slidesPerView: 1.975,
+      grid: {
+        rows: 2,
+      },
+    },
+    992: { //当屏幕宽度大于等于375
+      slidesPerView: 2.5,
+      grid: {
+        rows: 2,
+      },
+    },
+    1200: { //当屏幕宽度大于等于375
+      slidesPerView: 3,
+      grid: {
+        rows: 2,
+      },
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  
+
   },
 });
