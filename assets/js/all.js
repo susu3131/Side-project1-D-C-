@@ -94,14 +94,15 @@ var swiper = new Swiper(".Swiper-video", {
   }
 });
 var swiper = new Swiper(".Swiper-travel", {
+  slidesPerView: 3,
   grid: {
     rows: 2
   },
   loop: true,
   spaceBetween: 0,
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
+    nextEl: ".swiper-next",
+    prevEl: ".swiper-prev"
   }
 });
 //# sourceMappingURL=all.js.map
