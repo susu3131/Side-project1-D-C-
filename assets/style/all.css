@@ -13828,6 +13828,14 @@ p {
   font-weight: bold;
 }
 
+.border-hover:hover {
+  outline: 5px solid #2C2C2C !important;
+  padding: 8px;
+  -webkit-transition-duration: 0.5s !important;
+       -o-transition-duration: 0.5s !important;
+          transition-duration: 0.5s !important;
+}
+
 .white-hover:hover {
   color: white;
 }
