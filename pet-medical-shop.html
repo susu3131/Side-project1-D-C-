@@ -9,7 +9,7 @@
   <link rel="shortcut icon" , href="./assets/images/layout/logo1.png" ,type="image">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
@@ -29,60 +29,64 @@
       </div>
     </div>
   </div>
-  
 
 
-
-  <nav class="navbar navbar-expand-md pt-3 pb-3 border-bottom">
-    <div class="container-fluid container-lg ">
-      <a class="navbar-brand d-flex align-items-center nav-hover " href="index.html">
-        <img class="me-3" src="./assets/images/layout/home-icon 1.png" alt="home-icon 1.png " width="40">
-        <p>HOME</p>
-      </a>
-      <button class="navbar-toggler  border border-3 border-light rounded-circle p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <img src="./assets/images/layout/paw.png" alt="paw.png" width="40">
-      </button>
-      <!-- nav-pc-list -->
-      <div class="collapse navbar-collapse">
-        <a href="pet.html" class="d-flex">
-          <img src="./assets/images/layout/dog.png" alt="dog.png" width="40" height="40">
-          <img src="./assets/images/layout/cat.png" alt="cat.png" width="40" height="40">
+ <!-- nav -->
+  <div class="position-sticky top-0 z-index-300">
+    <nav class="navbar navbar-expand-md pt-3  border-bottom    pb-0   "
+      style="background-color: rgba(255, 255, 255, 0.95);">
+      <div class="container-fluid container-lg ">
+        <a class="navbar-brand d-flex align-items-center nav-hover  ms-3 mb-3" href="index.html">
+          <img class="me-3" src="./assets/images/layout/home-icon 1.png" alt="home-icon 1.png " width="40">
+          <p>HOME</p>
         </a>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item ms-3 nav-hover">
-            <a class="nav-link active" aria-current="page" href="pet-medical.html">毛孩醫護</a>
-          </li>
-          <li class="nav-item ms-3 nav-hover">
-            <a class="nav-link" href="pet-Knowledge.html">毛孩知多少</a>
-          </li>
-          <li class="nav-item ms-3 nav-hover">
-            <a class="nav-link" href="pet-travel.html">毛孩旅遊</a>
-          </li>
-          <li class="nav-item ms-3 nav-hover">
-            <a class="nav-link" href="pet-charity.html">毛孩公益</a>
-          </li>
-        </ul>
+        <button class="navbar-toggler mb-3  border border-3 border-light rounded-circle p-0" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <img src="./assets/images/layout/paw.png" alt="paw.png" width="40">
+        </button>
+        <!-- nav-pc-list -->
+        <div class="collapse navbar-collapse">
+          <a href="pet.html" class="d-flex">
+            <img src="./assets/images/layout/dog.png" alt="dog.png" width="40" height="40">
+            <img src="./assets/images/layout/cat.png" alt="cat.png" width="40" height="40">
+          </a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-3 nav-hover ">
+              <a class="nav-link active" aria-current="page" href="pet-medical.html">毛孩醫護</a>
+            </li>
+            <li class="nav-item ms-3 nav-hover">
+              <a class="nav-link" href="pet-Knowledge.html">毛孩知多少</a>
+            </li>
+            <li class="nav-item ms-3 nav-hover">
+              <a class="nav-link" href="pet-travel.html">毛孩旅遊</a>
+            </li>
+            <li class="nav-item ms-3 nav-hover">
+              <a class="nav-link" href="pet-charity.html">毛孩公益</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+    <!-- nav-phone-list -->
+    <div class="nav-phone text-center collapse navbar-collapse    " id="navbar" style="background-color: rgba(255, 255, 255, 0.95);">
+      <ul class="navbar-nav me-auto  mb-0 row ">
+        <li class="nav-item border-bottom border-top">
+          <a class="nav-link active link-hover " aria-current="page" href="pet-medical.html">毛孩醫護</a>
+        </li>
+        <li class="nav-item border-bottom">
+          <a class="nav-link link-hover " href="pet-Knowledge.html">毛孩知多少</a>
+        </li>
+        <li class="nav-item border-bottom">
+          <a class="nav-link link-hover " href="pet-travel.html">毛孩旅遊</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link link-hover border-bottom" href="pet-charity.html">毛孩公益</a>
+        </li>
+      </ul>
     </div>
-  </nav>
-  <!-- nav-phone-list -->
-  <div class="nav-phone text-center collapse navbar-collapse   " id="navbar">
-    <ul class="navbar-nav me-auto  mb-lg-0 row ">
-      <li class="nav-item border-bottom">
-        <a class="nav-link active link-hover " aria-current="page" href="pet-medical.html">毛孩醫護</a>
-      </li>
-      <li class="nav-item border-bottom">
-        <a class="nav-link link-hover " href="pet-Knowledge.html">毛孩知多少</a>
-      </li>
-      <li class="nav-item border-bottom">
-        <a class="nav-link link-hover " href="pet-travel.html">毛孩旅遊</a>
-      </li>
-      <li class="nav-item border-bottom">
-        <a class="nav-link link-hover" href="pet-charity.html">毛孩公益</a>
-      </li>
-    </ul>
   </div>
+
 
   <!-- pet-medical-tittle -->
 <div class="pet-24hr bg-img position-relative mb-6 overflow-hidden">
@@ -222,45 +226,51 @@
   </ul>
 </div>
 
-  <footer class="bg-secondary bg-footer pt-4 pb-4  pt-md-6 pb-md-6 ">
-    <div class="container">
-      <div class=" justify-content-md-between align-items-center row justify-content-center ">
+    <footer class="bg-secondary bg-footer pt-4 pb-4  pt-md-6 pb-md-6 ">
+      <div class="container">
+        <div class=" justify-content-md-between align-items-center row justify-content-center ">
 
-        <div class="footer-text text-light2 col-9 d-none  d-md-flex align-items-center ">
-          <img class=" footer-img ms-6 me-6 ms-md-3 me-md-3 ms-lg-5 me-lg-5" src="./assets/images/layout/footer-logogray.png" alt="logo 2.png">
-          <div class="footer-text-box ps-6">
-            <h5 class="fs-4 mb-3 fw-bold">D&C汪喵你我知 </h5>
-            <h5 class="mb-3">CONTANT US</h5>
-            <p >Phone : 0988-240-468</p>
-            <p >E-mail : anny81327@gmail.com</p>
-            <p >Address: No. 177, Sec. 2, Beixin Rd., Xindian Dist., New Taipei City 231,Taiwan (R.O.C.)</p>
-            <p class=" fs-10 mt-3">此網站僅做為前端side project 作品練習，無營利用途</p>
+          <div class="footer-text text-light2 col-9 d-none  d-md-flex align-items-center ">
+            <img class=" footer-img ms-6 me-6 ms-md-3 me-md-3 ms-lg-5 me-lg-5"
+              src="./assets/images/layout/footer-logogray.png" alt="logo 2.png">
+            <div class="footer-text-box ps-6">
+              <h5 class="fs-4 mb-3 fw-bold">D&C汪喵你我知 </h5>
+              <h5 class="mb-3">CONTANT US</h5>
+              <p>Phone : 0988-240-468</p>
+              <p>E-mail : anny81327@gmail.com</p>
+              <p>Address: No. 177, Sec. 2, Beixin Rd., Xindian Dist., New Taipei City 231,Taiwan (R.O.C.)</p>
+              <p class=" fs-10 mt-3">此網站僅做為前端side project 作品練習，無營利用途</p>
+            </div>
           </div>
+          <ul
+            class="footer-icon flex  d-flex flex-wrap col-9 justify-content-center col-md-3 me-lg-6 align-items-center">
+            <li class="w-100 ">
+              <a href="#">
+                <img class=" mx-auto mb-2 mb-lg-3  img-big " src="./assets/images/layout/qrcode.png" alt="qrcode.png"
+                  width="100">
+              </a>
+            </li>
+            <li class="img-big pe-4 pe-lg-5"><a href="#"><img src="./assets/images/layout/facebook.png"
+                  alt="facebook.png" width="30"></a></li>
+            <li class="img-big pe-4 pe-lg-5"><a href="#"><img src="./assets/images/layout/instagram.png"
+                  alt="instagram.png" width="30"></a></li>
+            <li class="img-big"><a href="#"><img src="./assets/images/layout/email.png" alt="email.png" width="30"
+                  height="35"></a></li>
+          </ul>
         </div>
-        <ul class="footer-icon flex  d-flex flex-wrap col-9 justify-content-center col-md-3 me-lg-6 align-items-center">
-          <li class="w-100 ">
-            <a  href="#">
-              <img class=" mx-auto mb-2 mb-lg-3  img-big " src="./assets/images/layout/qrcode.png" alt="qrcode.png" width="100">
-            </a>
-          </li>
-          <li class="img-big pe-4 pe-lg-5"><a href="#" ><img  src="./assets/images/layout/facebook.png" alt="facebook.png" width="30"></a></li>
-          <li class="img-big pe-4 pe-lg-5"><a href="#" ><img src="./assets/images/layout/instagram.png" alt="instagram.png" width="30"></a></li>
-          <li class="img-big"><a href="#" ><img src="./assets/images/layout/email.png" alt="email.png" width="30" height="35"></a></li>
-        </ul>
-      </div>
-      
-    </div>
-  </footer>
 
-  <!-- //swiper -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <!-- //aos視差滾動 -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
+      </div>
+    </footer>
+
+    <!-- //swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- //aos視差滾動 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
 </body>
 
 </html>

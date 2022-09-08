@@ -31,15 +31,17 @@
   <!-- index-choose -->
   <div class="choose-hide index-choose">
     <div class="index-choose  d-flex justify-content-center align-items-center">
-      <div class="index-bg  border border-3 w-80 w-md-90 vh-80 w-lg-75  w-xl-60 w-xxl-50 vh-md-50  pt-5 pb-5  pt-md-6 pb-md-6  radius-50   d-flex justify-content-center  flex-column">
+      <div
+        class="index-bg  border border-3 w-80 w-md-90 vh-80 w-lg-75  w-xl-60 w-xxl-50 vh-md-50  pt-5 pb-5  pt-md-6 pb-md-6  radius-50   d-flex justify-content-center  flex-column">
         <div class="d-flex justify-content-between  align-items-center mb-4 mb-md-5">
           <h3 class="text-primary text-center fs-1  d-md-block   mx-auto ps-6 mb-0">你想養?</h3>
           <button type="button" class="btn-close  index-close me-md-6 me-4" aria-label="Close"></button>
         </div>
         <div class=" container d-md-flex  justify-content-center  align-items-center mb-md-4">
           <!-- //dog -->
-          <a href="dog.html"><img class="radius-40 w-60 w-sm-50 w-md-70 w-lg-65 mx-auto mb-5 mb-md-0 opacity-70 img-hover me-md-6"
-              src="./assets/images/index/dog-1.jpg" alt="dog.jpg" >
+          <a href="dog.html"><img
+              class="radius-40 w-60 w-sm-50 w-md-70 w-lg-65 mx-auto mb-5 mb-md-0 opacity-70 img-hover me-md-6"
+              src="./assets/images/index/dog-1.jpg" alt="dog.jpg">
           </a>
           <!-- font -->
           <div class="chooose-content d-md-flex d-none text-primary align-items-center ">
@@ -49,8 +51,8 @@
           </div>
           <!-- //cat -->
           <a href="cat.html">
-            <img class="radius-40 mx-auto opacity-70 w-60 w-sm-50 w-md-70 w-lg-65 img-hover ms-md-6" src="./assets/images/index/cat-1.jpg"
-              alt="cat.jpg" >
+            <img class="radius-40 mx-auto opacity-70 w-60 w-sm-50 w-md-70 w-lg-65 img-hover ms-md-6"
+              src="./assets/images/index/cat-1.jpg" alt="cat.jpg">
           </a>
         </div>
       </div>
@@ -58,34 +60,38 @@
     </div>
   </div>
 
-  <nav class="navbar navbar-expand-md pt-3 pb-3 border-bottom">
-    <div class="container-fluid container-lg ">
-      <div class="index-nav d-flex align-items-center mx-auto ms-md-0  ">
-        <img class="me-1" src="./assets/images/layout/dog.png" alt="home-icon 1.png" width="40" height="40">
-        <img class="me-3" src="./assets/images/layout/cat.png" alt="home-icon 1.png" width="40" height="40">
-        <p class="fs-md-2 fs-3 fw-bold text-dark  ">Dog & Cat</p>
+  <!-- nav -->
+  <div class="position-sticky top-0 z-index-300">
+    <nav class="navbar navbar-expand-md pt-3  border-bottom    pb-0   "
+      style="background-color: rgba(255, 255, 255, 0.95);">
+      <div class="container-fluid container-lg ">
+        <div class="index-nav d-flex align-items-center mx-auto ms-md-0 mb-3  ">
+          <img class="me-1" src="./assets/images/layout/dog.png" alt="home-icon 1.png" width="40" height="40">
+          <img class="me-3" src="./assets/images/layout/cat.png" alt="home-icon 1.png" width="40" height="40">
+          <p class="fs-md-2 fs-3 fw-bold text-dark  ">Dog & Cat</p>
+        </div>
+        <button class="navbar-toggler mb-3  border border-3 border-light rounded-circle p-0" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <img src="./assets/images/layout/paw.png" alt="paw.png" width="40">
+        </button>
+        <!-- nav-pc-list -->
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto  mb-lg-0 align-items-center ">
+            <p class="mb-3">快速前往 Go >></p>
+            <li class="nav-item mb-3  fw-M ms-3 nav-hover">
+              <a class="nav-link active index-dc" aria-current="page">我想養</a>
+            </li>
+            <li class="nav-item ms-3 mb-3  fw-M nav-hover">
+              <a class="nav-link" href="pet.html">我有養</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <button class="navbar-toggler  border border-3 border-light rounded-circle p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <img src="./assets/images/layout/paw.png" alt="paw.png" width="40">
-      </button>
-      <!-- nav-pc-list -->
-      <div class="collapse navbar-collapse">
-
-        <ul class="navbar-nav me-auto  mb-lg-0 align-items-center">
-          <p>快速前往 Go >></p>
-          <li class="nav-item  fw-M ms-3 nav-hover">
-            <a class="nav-link active index-dc" aria-current="page" >我想養</a>
-          </li>
-          <li class="nav-item ms-3  fw-M nav-hover">
-            <a class="nav-link" href="pet.html">我有養</a>
-          </li>          
-        </ul>
-      </div>
-    </div>
-  </nav>
+    </nav>
     <!-- nav-phone-list -->
-    <div class="nav-phone text-center collapse navbar-collapse   " id="navbar">
+    <div class="nav-phone text-center collapse navbar-collapse    " id="navbar"
+      style="background-color: rgba(255, 255, 255, 0.95);">
       <ul class="navbar-nav me-auto  mb-lg-0 row ">
         <li class="nav-item border-bottom">
           <a class="nav-link link-hover index-dc" href="#">我想養</a>
@@ -93,11 +99,10 @@
         <li class="nav-item border-bottom">
           <a class="nav-link link-hover " href="pet.html">我有養</a>
         </li>
-
+  
       </ul>
     </div>
-
-
+  </div>
 
   
 
@@ -443,30 +448,36 @@
     <footer class="bg-secondary bg-footer pt-4 pb-4  pt-md-6 pb-md-6 ">
       <div class="container">
         <div class=" justify-content-md-between align-items-center row justify-content-center ">
-  
+
           <div class="footer-text text-light2 col-9 d-none  d-md-flex align-items-center ">
-            <img class=" footer-img ms-6 me-6 ms-md-3 me-md-3 ms-lg-5 me-lg-5" src="./assets/images/layout/footer-logogray.png" alt="logo 2.png">
+            <img class=" footer-img ms-6 me-6 ms-md-3 me-md-3 ms-lg-5 me-lg-5"
+              src="./assets/images/layout/footer-logogray.png" alt="logo 2.png">
             <div class="footer-text-box ps-6">
               <h5 class="fs-4 mb-3 fw-bold">D&C汪喵你我知 </h5>
               <h5 class="mb-3">CONTANT US</h5>
-              <p >Phone : 0988-240-468</p>
-              <p >E-mail : anny81327@gmail.com</p>
-              <p >Address: No. 177, Sec. 2, Beixin Rd., Xindian Dist., New Taipei City 231,Taiwan (R.O.C.)</p>
+              <p>Phone : 0988-240-468</p>
+              <p>E-mail : anny81327@gmail.com</p>
+              <p>Address: No. 177, Sec. 2, Beixin Rd., Xindian Dist., New Taipei City 231,Taiwan (R.O.C.)</p>
               <p class=" fs-10 mt-3">此網站僅做為前端side project 作品練習，無營利用途</p>
             </div>
           </div>
-          <ul class="footer-icon flex  d-flex flex-wrap col-9 justify-content-center col-md-3 me-lg-6 align-items-center">
+          <ul
+            class="footer-icon flex  d-flex flex-wrap col-9 justify-content-center col-md-3 me-lg-6 align-items-center">
             <li class="w-100 ">
-              <a  href="#">
-                <img class=" mx-auto mb-2 mb-lg-3  img-big " src="./assets/images/layout/qrcode.png" alt="qrcode.png" width="100">
+              <a href="#">
+                <img class=" mx-auto mb-2 mb-lg-3  img-big " src="./assets/images/layout/qrcode.png" alt="qrcode.png"
+                  width="100">
               </a>
             </li>
-            <li class="img-big pe-4 pe-lg-5"><a href="#" ><img  src="./assets/images/layout/facebook.png" alt="facebook.png" width="30"></a></li>
-            <li class="img-big pe-4 pe-lg-5"><a href="#" ><img src="./assets/images/layout/instagram.png" alt="instagram.png" width="30"></a></li>
-            <li class="img-big"><a href="#" ><img src="./assets/images/layout/email.png" alt="email.png" width="30" height="35"></a></li>
+            <li class="img-big pe-4 pe-lg-5"><a href="#"><img src="./assets/images/layout/facebook.png"
+                  alt="facebook.png" width="30"></a></li>
+            <li class="img-big pe-4 pe-lg-5"><a href="#"><img src="./assets/images/layout/instagram.png"
+                  alt="instagram.png" width="30"></a></li>
+            <li class="img-big"><a href="#"><img src="./assets/images/layout/email.png" alt="email.png" width="30"
+                  height="35"></a></li>
           </ul>
         </div>
-        
+
       </div>
     </footer>
 
