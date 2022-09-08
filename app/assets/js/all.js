@@ -35,20 +35,24 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
-    450: { //当屏幕宽度大于等于375
+    450: { 
       slidesPerView: 3,
       spaceBetween: 15,
     },
-    576: { //当屏幕宽度大于等于375
+    576: { 
       slidesPerView: 4,
       spaceBetween: 20,
     },
-    767: { //当屏幕宽度大于等于375
+    767: { 
       slidesPerView: 5,
       spaceBetween: 30,
     },
-    992: { //当屏幕宽度大于等于375
+    992: { 
       slidesPerView: 6,
+      spaceBetween: 30,
+    },
+    1200: { 
+      slidesPerView: 8,
       spaceBetween: 30,
     },
   }
