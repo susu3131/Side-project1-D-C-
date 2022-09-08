@@ -58,39 +58,45 @@
     </div>
   </div>
 
-
-  <!-- //header & nav -->
-  <nav class="navbar  pt-3 pb-3 border-bottom">
-    <div class="container ">
+  <nav class="navbar navbar-expand-md pt-3 pb-3 border-bottom">
+    <div class="container-fluid container-lg ">
       <div class="index-nav d-flex align-items-center mx-auto ms-md-0  ">
-        <img class="me-1" src="./assets/images/layout/dog.png" alt="home-icon 1.png" width="60" height="60">
-        <img class="me-3" src="./assets/images/layout/cat.png" alt="home-icon 1.png" width="60" height="60">
-        <p class="fs-md-2 fs-8 fw-bold text-dark  ">Dog & Cat</p>
+        <img class="me-1" src="./assets/images/layout/dog.png" alt="home-icon 1.png" width="40" height="40">
+        <img class="me-3" src="./assets/images/layout/cat.png" alt="home-icon 1.png" width="40" height="40">
+        <p class="fs-md-2 fs-3 fw-bold text-dark  ">Dog & Cat</p>
       </div>
-      <ul class="d-md-flex  d-none ">
-        <li class="me-3 img-big">
-          <a href="#index-introduce">
-            <img src="./assets/images/index/icon-1.png" alt="icon-1.png" width="30">
-          </a>
+      <button class="navbar-toggler  border border-3 border-light rounded-circle p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="./assets/images/layout/paw.png" alt="paw.png" width="40">
+      </button>
+      <!-- nav-pc-list -->
+      <div class="collapse navbar-collapse">
+
+        <ul class="navbar-nav me-auto  mb-lg-0 align-items-center">
+          <p>快速前往 Go >></p>
+          <li class="nav-item  fw-M ms-3 nav-hover">
+            <a class="nav-link active index-dc" aria-current="page" >我想養</a>
+          </li>
+          <li class="nav-item ms-3  fw-M nav-hover">
+            <a class="nav-link" href="pet.html">我有養</a>
+          </li>          
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- nav-phone-list -->
+    <div class="nav-phone text-center collapse navbar-collapse   " id="navbar">
+      <ul class="navbar-nav me-auto  mb-lg-0 row ">
+        <li class="nav-item border-bottom">
+          <a class="nav-link link-hover index-dc" href="#">我想養</a>
         </li>
-        <li class="me-3 img-big">
-          <a href="#index-about">
-            <img src="./assets/images/index/icon-2.png" alt="icon-2.png" width="30">
-          </a>
-        </li>
-        <li class="me-3 img-big">
-          <a href="#index-photo">
-            <img src="./assets/images/index/icon-3.png" alt="icon-3.png" width="30">
-          </a>
-        </li>
-        <li class="me-3 img-big">
-          <a href="#index-go">
-            <img src="./assets/images/index/icon-4.png" alt="icon-4.png" width="30">
-          </a>
+        <li class="nav-item border-bottom">
+          <a class="nav-link link-hover " href="pet.html">我有養</a>
         </li>
 
       </ul>
-  </nav>
+    </div>
+
 
 
   
@@ -289,7 +295,7 @@
       <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
       <div class="swiper-wrapper ">
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
+          <div class="swiper-zoom-container overflow-hidden">
             <img class="radius-15" src="./assets/images/index/photo1.png" width="264" />
           </div>
         </div>

@@ -13971,12 +13971,16 @@ p {
 }
 
 .mySwiper .swiper-slide-active {
-  -webkit-transform: scale(1.3);
-      -ms-transform: scale(1.3);
-          transform: scale(1.3);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
   opacity: 1 !important;
   z-index: 500;
   margin-left: 24px;
+}
+
+.mySwiper .swiper-slide-active img {
+  border-radius: 35px !important;
 }
 
 .mySwiper .swiper-slide-next {
