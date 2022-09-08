@@ -8113,12 +8113,24 @@ fieldset:disabled .btn {
   min-width: 100vw !important;
 }
 
+.h-5 {
+  height: 5% !important;
+}
+
 .h-25 {
   height: 25% !important;
 }
 
+.h-40 {
+  height: 40% !important;
+}
+
 .h-50 {
   height: 50% !important;
+}
+
+.h-60 {
+  height: 60% !important;
 }
 
 .h-75 {
@@ -9511,11 +9523,20 @@ fieldset:disabled .btn {
   .w-sm-auto {
     width: auto !important;
   }
+  .h-sm-5 {
+    height: 5% !important;
+  }
   .h-sm-25 {
     height: 25% !important;
   }
+  .h-sm-40 {
+    height: 40% !important;
+  }
   .h-sm-50 {
     height: 50% !important;
+  }
+  .h-sm-60 {
+    height: 60% !important;
   }
   .h-sm-75 {
     height: 75% !important;
@@ -10357,11 +10378,20 @@ fieldset:disabled .btn {
   .w-md-auto {
     width: auto !important;
   }
+  .h-md-5 {
+    height: 5% !important;
+  }
   .h-md-25 {
     height: 25% !important;
   }
+  .h-md-40 {
+    height: 40% !important;
+  }
   .h-md-50 {
     height: 50% !important;
+  }
+  .h-md-60 {
+    height: 60% !important;
   }
   .h-md-75 {
     height: 75% !important;
@@ -11203,11 +11233,20 @@ fieldset:disabled .btn {
   .w-lg-auto {
     width: auto !important;
   }
+  .h-lg-5 {
+    height: 5% !important;
+  }
   .h-lg-25 {
     height: 25% !important;
   }
+  .h-lg-40 {
+    height: 40% !important;
+  }
   .h-lg-50 {
     height: 50% !important;
+  }
+  .h-lg-60 {
+    height: 60% !important;
   }
   .h-lg-75 {
     height: 75% !important;
@@ -12049,11 +12088,20 @@ fieldset:disabled .btn {
   .w-xl-auto {
     width: auto !important;
   }
+  .h-xl-5 {
+    height: 5% !important;
+  }
   .h-xl-25 {
     height: 25% !important;
   }
+  .h-xl-40 {
+    height: 40% !important;
+  }
   .h-xl-50 {
     height: 50% !important;
+  }
+  .h-xl-60 {
+    height: 60% !important;
   }
   .h-xl-75 {
     height: 75% !important;
@@ -12895,11 +12943,20 @@ fieldset:disabled .btn {
   .w-xxl-auto {
     width: auto !important;
   }
+  .h-xxl-5 {
+    height: 5% !important;
+  }
   .h-xxl-25 {
     height: 25% !important;
   }
+  .h-xxl-40 {
+    height: 40% !important;
+  }
   .h-xxl-50 {
     height: 50% !important;
+  }
+  .h-xxl-60 {
+    height: 60% !important;
   }
   .h-xxl-75 {
     height: 75% !important;
@@ -13913,16 +13970,21 @@ p {
   display: none;
 }
 
-.swiper-slide-active {
+.mySwiper .swiper-slide-active {
   -webkit-transform: scale(1.3);
       -ms-transform: scale(1.3);
           transform: scale(1.3);
   opacity: 1 !important;
   z-index: 500;
+  margin-left: 24px;
 }
 
-.swiper-slide {
-  opacity: 0.5;
+.mySwiper .swiper-slide-next {
+  margin-left: 24px;
+}
+
+.mySwiper .swiper-slide {
+  opacity: 0.7;
 }
 
 .left {
