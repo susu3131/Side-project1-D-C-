@@ -1,9 +1,13 @@
 .mySwiper{
   .swiper-slide-active{
-    transform: scale(1.3);
+    transform: scale(1.2);
     opacity: 1 !important;
     z-index: 500;
     margin-left: 24px;
+    img{
+      border-radius: 35px !important; 
+    }
+
     
   }
   .swiper-slide-next{
