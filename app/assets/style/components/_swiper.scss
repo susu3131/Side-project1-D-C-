@@ -16,7 +16,9 @@
   .swiper-slide{
     opacity: 0.7;
   }
+  
 }
+
 
 
 
@@ -32,15 +34,37 @@
   right:-50px;
   top: 50%;
 }
-
+.swiper-pagination{
+  bottom: -25px !important;
+}
 .swiper-pagination-bullet{
   background: rgb(255, 255, 255) ;
+  width: 40px;
+  height: 10px;
+  border-radius: 5px;
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+  bottom: 0 !important;
 }
 
 .swiper-pagination-bullet-active{
   background: $primary ;
 }
 
+.Swiper-video{
+  .swiper-slide-active{
+    transform: scale(1.2);
+    opacity: 1 !important;
+    z-index: 500;
+
+
+    
+  }
+
+  .swiper-slide{
+    opacity: 0.6;
+  }
+}
 
 
 //swiper-travel
